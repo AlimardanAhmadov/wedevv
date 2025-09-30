@@ -1,0 +1,37 @@
+.CTA {
+    position: relative;
+    top: 45rem;
+}
+
+.ctaOverlay {
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: linear-gradient(#040e19 0%, rgb(5 14 24 / 31%) 55%, #040e19 100%), url(/images/man-lifting-dumbells.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 690px;
+    background-position: center;
+}
+
+.ctaContent {
+    max-width: 79rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 16rem;
+}
+
+.ctaContent > h1 {
+    font-size: 2.55rem;
+    font-weight: 700;
+}
+
+.ctaContent > h3 {
+    font-size: 1.1rem;
+    line-height: 12px;
+}
+
+.ctaContent a[type="button"] {
+    font-size: .9rem;
+    margin-top: 1.8rem;
+}

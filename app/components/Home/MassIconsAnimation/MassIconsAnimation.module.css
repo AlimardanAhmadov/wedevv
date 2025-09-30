@@ -1,0 +1,225 @@
+
+
+.icon:nth-of-type(6) > img {
+    width: 54px;
+}
+
+.icon:nth-of-type(8) > img {
+    margin-top: 7px;
+}
+
+.lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    margin: auto;
+    width: 100%;
+    z-index: -1;
+}
+
+.line {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 57%;
+    background: rgb(255 255 255 / 4%);
+    overflow: hidden;
+}
+
+.line:nth-of-type(6),
+.line:nth-of-type(7),
+.line:nth-of-type(8) {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 57%;
+    left: 0;
+    /* background: rgb(255 255 255 / 4%); */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 28%, rgb(255 255 255 / 4%) 51%, rgba(0, 0, 0, 0) 100%);
+    overflow: hidden;
+}
+
+.line::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 8px;
+    width: 100px;
+    top: -50%;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #b2b2b2 75%, #b2b2b2 100%);
+    -webkit-animation: drop 10s 0s infinite;
+            animation: drop 10s 0s infinite;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+            animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+
+.line:nth-of-type(6)::after,
+.line:nth-of-type(7)::after,
+.line:nth-of-type(8)::after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100px;
+    width: 8px;
+    top: -50%;
+    left: -1%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, #b2b2b2 50%, rgba(0, 0, 0, 0) 100%);
+    -webkit-animation: slide 10s 0s infinite;
+            animation: slide 10s 0s infinite;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+    -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+            animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+
+.line:nth-child(1) {
+    margin-left: -20.5%;
+}
+.line:nth-child(1)::after {
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+}
+.line:nth-child(2) {
+    margin-left: -40%;
+    display: none;
+}
+.line:nth-child(2)::after {
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+}
+.line:nth-child(3) {
+    margin-left: 20.5%;
+}
+.line:nth-child(3)::after {
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+}
+.line:nth-child(4) {
+    margin-left: 40%;
+    display: none;
+}
+.line:nth-child(4)::after {
+    -webkit-animation-delay: 4s;
+            animation-delay: 4s;
+}
+.line:nth-child(5) {
+    margin-right: 5.5%;
+}
+.line:nth-child(5)::after {
+    -webkit-animation-delay: 5.5s;
+            animation-delay: 5.5s;
+}
+.line:nth-child(6)::after {
+    -webkit-animation-delay: 5.5s;
+            animation-delay: 5.5s;
+}
+.line:nth-child(7) {
+    margin-top: 14%;
+}
+.line:nth-child(7)::after {
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+}
+.line:nth-child(8) {
+    margin-top: -19.5%;
+}
+.line:nth-child(8)::after {
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+}
+
+@-webkit-keyframes drop {
+    0% {
+        top: -50%;
+    }
+    100% {
+        top: 110%;
+    }
+}
+
+@keyframes drop {
+    0% {
+        top: -50%;
+    }
+    100% {
+        top: 110%;
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        left: 28%;
+    }
+    100% {
+        left: 120%;
+    }
+}
+
+@keyframes slide {
+    0% {
+        left: 28%;
+    }
+    100% {
+        left: 120%;
+    }
+}
+
+.pricingCard {
+    text-decoration: none;
+    text-align: left;
+    z-index: 2;
+}
+
+.pricingCard:hover {
+    transform: scale(1.05);
+}
+
+.pricingCard > div {
+    width: 20rem;
+    height: 38rem;
+    padding: 1.5rem 2rem;
+    background: linear-gradient(to top, transparent 0%, rgba(107,55,216,.2) 95%, rgba(107,55,216,.2) 100%);
+}
+
+.pricingCard:nth-of-type(2) > div {
+    background: linear-gradient(to top, transparent 0%, rgba(107,55,216,.2) 100%);
+}
+
+.pricingCard:nth-of-type(2) > a[type="button"] {
+    background-color: rgb(245 212 92) !important;
+}
+
+.planDetails {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing {
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+.features > li {
+    font-weight: 600;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.features > li > svg {
+    width: 10px;
+    fill: #fff;
+}
+
+@media screen and (max-width: 1332px) {
+    .flyingImages {
+        display: none;
+    }
+}

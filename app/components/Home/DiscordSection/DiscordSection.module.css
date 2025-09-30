@@ -1,0 +1,75 @@
+.discordSection {
+    top: 10rem;
+    background-image: radial-gradient(50% 50% at 50% 50%, #11293e, transparent 100%);
+}
+
+@media screen and (max-width: 800px) {
+    .discordSection {
+        top: -2rem !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .discordSection {
+        top: -11rem !important
+    }
+}
+
+.tag {
+    width: 10rem;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    white-space: nowrap;
+    background-color: rgb(245, 212, 92);
+}
+
+.tag > img {
+    width: 20px;
+}
+
+.tag > span {
+    padding-top: 1px;
+}
+
+.discordButton {
+    width: 17.5rem;
+    margin-top: 5rem;
+}
+
+.discordButton > a {
+    background-color: rgb(107 55 216 / 1);
+    font-weight: 800;
+    border-radius: 5px;
+    margin-top: 2rem;
+    margin-bottom: 20rem;
+    position: relative;
+    z-index: 1;
+}
+
+.discordButton:focus,
+.discordButton a:active {
+    background-color: rgb(52, 26, 107);
+    position: relative;
+    top: 6.84px;
+    right: -5px;
+}
+
+.discordShadow {
+    height: 4.7rem;
+    width: 17.5rem;
+    border-radius: 6px;
+    background-color: rgb(52, 26, 107);
+    top: 7.5px;
+    right: -5px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 5px;
+}
+
+.topLeft {
+    rotate: 180deg;
+}
+
+.topLeft > img:nth-of-type(2) {
+    rotate: 180deg;
+}

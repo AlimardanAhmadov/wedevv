@@ -1,0 +1,16 @@
+.coachList,
+.breadcrumbs {
+    max-width: 85rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.coachCard > div > span {
+    color: rgb(92 122 163);
+    letter-spacing: 0.5px;
+    font-size: 11px;
+}
+
+.coachCard:hover {
+    background: linear-gradient(to top, transparent 0%,  transparent 14%, #162e58 100%);
+}

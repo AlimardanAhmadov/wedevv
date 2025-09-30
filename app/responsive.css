@@ -1,0 +1,85 @@
+@media screen and (max-width: 1440px) {
+    .player-container {
+        max-width: 55rem !important;
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 934px) {
+    .nav-links-list {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        left: 0;
+        right: 0;
+        width: 100% !important;
+        text-align: start !important;
+        justify-content: flex-start;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    #about {
+        top: 15rem !important;
+        border-radius: 0 !important;
+    }
+
+    #about > div:nth-of-type(2) {
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+    }
+
+    #clients > div {
+        top: 7rem !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .clients {
+        padding: 2rem !important;
+    }
+    .dot-item {
+        display: none !important;
+    }
+
+    #services {
+        top: 11rem !important;
+    }
+
+    #services > div:nth-of-type(1) {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    #services > div:nth-of-type(2) {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .card-grid > div {
+        padding-right: 1rem !important;
+    }
+
+    #career {
+        top: 62rem !important;
+        margin-left: 2rem !important;
+        margin-right: 2rem !important;
+        padding: 2rem !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #dots-map {
+        width: 716px !important;
+    }
+
+    [role="tablist"] {
+        gap: 1rem !important;
+    }
+}
+

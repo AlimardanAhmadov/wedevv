@@ -1,0 +1,218 @@
+.bannerBubble > div > svg:nth-of-type(1) {
+    display: none;
+}
+
+.bannerBubble {
+    transition: transform 0.2s;
+    background: #091a2d;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.bannerBubble > div {
+    width: 90px;
+    height: 90px;
+}
+
+.bannerInfo {
+    /* top: 13rem; */
+    width: 29rem;
+}
+
+.bannerInfo > h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.bannerInfo > h3 {
+    font-size: 1.49rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 47px;
+}
+
+.bannerBubble:hover {
+    transform: scale(1.2);
+}
+
+.spin-animation {
+    animation: spin 0.5s linear forwards;
+}
+  
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.coachList input {
+    width: 17rem;
+    font-size: 11.5px;
+}
+
+.coachList > div:nth-of-type(1) {
+    border-bottom: 1px solid rgb(45 59 72);
+}
+
+.coachList > div:nth-of-type(1) > div > button {
+    font-size: 11.5px;
+    color: rgb(119, 147, 194);
+    width: 23rem;
+}
+
+.coachList input::placeholder {
+    color: rgb(119, 147, 194);
+}
+
+.coachCard > div > span {
+    color: rgb(92 122 163);
+    letter-spacing: 0.5px;
+    font-size: 11px;
+}
+
+.coachCard {
+    margin-bottom: 2rem;
+}
+
+.coachCard:hover {
+    background: linear-gradient(to top, transparent 0%,  transparent 14%, #162e58 100%);
+}
+
+.dropdown > div {
+    top: 4.1rem;
+}
+
+.sortList li:hover {
+    color: rgb(119, 147, 194);
+}
+
+.coachesFooter {
+    z-index: -1;
+    top: -80rem;
+}
+
+.categoryCard {
+    position: relative;
+    height: 7rem;
+    width: 11.75rem;
+    transition: transform .2s ease-in-out;
+    cursor: pointer;
+    text-align: left;
+}
+
+.categoryCard:nth-of-type(1) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/dumbells.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(2) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/crossfit.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(3) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/yoga.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(4) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/swimming.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(5) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/cycling.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(6) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/aerobics.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(7) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/dance-fitness.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(8) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/bodyweight-training.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(9) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/hiit.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(10) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/group-classes.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(11) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/endurance-training.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(12) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/cardiovascular.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(13) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/stretching.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(14) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/pilates.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(15) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/functional-training.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(16) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/martial-arts.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(17) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/rehabilitation.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:hover {
+    transform: scale(1.1);
+}
+
+.categoryCard > div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 12px;
+}

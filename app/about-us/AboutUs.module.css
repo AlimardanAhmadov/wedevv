@@ -1,0 +1,163 @@
+.aboutUs > div {
+    top: 7rem;
+}
+
+.contactGrid {
+    max-width: 64rem;
+    top: 15rem;
+    flex-wrap: wrap;
+}
+
+.contactGrid > a {
+    font-size: 1.1rem;
+    background: rgb(12 27 41 / 1);
+    flex-basis: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contactGrid > a:hover {
+    background: rgb(22, 47, 71);
+}
+
+.contactGrid > a > svg,
+.contactGrid > a > img {
+    width: 36px;
+    height: 36px;
+}
+
+.goToDashboard {
+    max-width: 79rem;
+    top: 30rem;
+    height: 32rem;
+}
+
+.goToDashboard > div {
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 1.8rem;
+    border-bottom-right-radius: 1.8rem;
+}
+
+.goToDashboard div:nth-of-type(1) > img {
+    border-top-left-radius: 1.8rem;
+    border-bottom-left-radius: 1.8rem;
+}
+
+.goToDashboard > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.goToDashboardInfo {
+    padding-top: 6.5rem;
+    background-color: rgb(30 39 50/1);
+}
+
+.goToDashboardInfo > h1,
+.goToDashboardInfo > h3 {
+    padding-left: 6.5rem;
+    padding-right: 6.5rem;
+}
+
+.goToDashboardInfo > h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    max-width: 1rem;
+    line-height: 45px;
+}
+
+.goToDashboardInfo > h3 {
+    font-size: 14px;
+    color: rgb(207 217 224 / 1);
+    max-width: 31rem;
+}
+
+.goToDashboardInfo > div {
+    width: 100%;
+    margin-left: 6.5rem;
+    margin-top: 2rem;
+}
+
+.goToDashboardInfo > div > a {
+    padding-right: 4.5rem;
+    padding-left: 4.5rem;
+}
+
+.learnMore {
+    max-width: 79rem;
+    top: 31.3rem;
+}
+
+.learnMore div:nth-of-type(1) {
+    background-color: rgb(30 39 50 / 1);
+    border-radius: 1.5rem;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.learnMoreInfo {
+    width: 100%;
+}
+
+.proposalForumInfo > h1,
+.learnMoreDiscord > h1,
+.learnMoreInfo > h1 {
+    font-size: 1.85rem;
+    font-weight: 800;
+    max-width: 21rem;
+    line-height: 36px;
+}
+
+.proposalForumInfo > a,
+.learnMoreInfo > a {
+    font-size: .9rem;
+    background-color: rgb(107 55 216 / 1);
+}
+
+.proposalForumInfo > a:hover,
+.learnMoreInfo > a:hover {
+    background-color: rgb(76, 33, 169);
+}
+
+.learnMoreDiscord {
+    background-color: rgb(151 71 255/1);
+    width: 100%;
+    height: 23rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.learnMoreDiscord > a {
+    font-size: .9rem;
+}
+
+.proposalForum {
+    max-width: 79rem;
+    top: 31.5rem;
+}
+
+.proposalForum > div {
+    background-color: rgb(30 39 50 / 1);
+    border-radius: 1.8rem;
+    height: 23rem;
+    width: 100%;
+}
+
+.proposalForum img {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 376px;
+    object-fit: contain;
+}
+
+.aboutUsFooter {
+    position: relative;
+    top: -57rem;
+}

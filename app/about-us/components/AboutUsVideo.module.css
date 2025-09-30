@@ -1,0 +1,37 @@
+.aboutUsVideo {
+    max-width: 79rem;
+    top: 20rem;
+}
+
+.videoContainer > video {
+    border-radius: 35px;
+}
+
+.videoOverlay {
+    background: linear-gradient(#040e19 0%, rgb(5 14 24 / 31%) 15%, rgb(5 14 24 / 31%) 75%, #040e19 100%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.videoInfo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: 7rem;
+}
+
+.videoInfo > h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 46px;
+    max-width: 322px;
+}
+
+.videoInfo > h3 {
+    font-size: 14px;
+    max-width: 37%;
+    color: rgb(207 217 224 / 1);
+}

@@ -1,0 +1,42 @@
+.banner {
+    max-width: 79rem;
+    position: relative;
+    top: 9rem;
+}
+
+.bannerTitle {
+    line-height: 60px;
+    font-size: clamp(2.5rem,calc(3.8095vw + 1.5714rem),3rem);
+}
+
+.bannerSubtitle {
+    font-size: .98rem;
+    font-weight: 500;
+    /* max-width: 40rem; */
+}
+
+.bannerCover {
+    /* height: 745px; */
+    height: 916px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .banner {
+        max-width: fit-content !important;
+        text-align: start !important;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        overflow: hidden;
+    }
+
+    .bannerTitle {
+        max-width: fit-content !important;
+    }
+
+    .ctaButtons,
+    .ratings {
+        justify-content: start !important;
+        align-items: start !important;
+    }
+}

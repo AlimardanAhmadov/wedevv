@@ -1,0 +1,55 @@
+.coaches {
+    top: 105rem;
+    height: 40rem;
+    max-width: 64rem;
+}
+
+.coachesTitle > h1 {
+    font-size: 2.45rem;
+    font-weight: 700;
+}
+
+.coachesTitle > a {
+    background-color: rgba(86, 94, 102, 0.5);
+    width: 13rem;
+    font-size: .78rem;
+}
+
+.coachInfo h1{
+    font-size: 16px;
+}
+
+.coachInfo span {
+    font-size: 10px;
+    color: rgb(143, 184, 208);
+}
+
+.coachCard {
+    cursor: pointer;
+}
+
+.coachCard:hover {
+    transform: scale(1.05);
+}
+
+.coachCover {
+    top: 2rem;
+    right: 10rem;
+    rotate: 344deg;
+    transform: scaleY(1);
+}
+
+.coachProfileImg {
+    z-index: 2;
+    height: 320px;
+    max-height: 320px;
+}
+
+.coachList > svg:nth-child(1) {
+    right: -4rem;
+}
+
+.coachList > svg:nth-child(2) {
+    rotate: 180deg;
+    left: -4rem;
+}

@@ -1,0 +1,153 @@
+@keyframes forward {
+    0% {
+        margin-left: .2rem;
+    }
+    100% {
+        margin-left: .5rem;
+    }    
+}
+
+.categoriesSection {
+    max-width: 64rem;
+    top: 18rem;
+}
+
+.categoriesSection > h4 {
+    font-size: 14px;
+}
+
+.categoriesSection > h4 > svg {
+    animation-name: forward;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.categories {
+    white-space: nowrap;
+    gap: 20px;
+}
+
+.categoryCard {
+    position: relative;
+    min-width: 9rem;
+    width: 9rem;
+    height: 9rem;
+    transition: transform .2s ease-in-out;
+    /* cursor: pointer; */
+    text-align: left;
+}
+
+.categoryCard:nth-of-type(1) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/dumbells.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(2) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/crossfit.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(3) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/yoga.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(4) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/swimming.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(5) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/cycling.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(6) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/aerobics.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(7) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/dance-fitness.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(8) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/bodyweight-training.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(9) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/hiit.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(10) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/group-classes.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(11) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/endurance-training.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(12) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/cardiovascular.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(13) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/stretching.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(14) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/pilates.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(15) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/functional-training.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(16) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/martial-arts.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+.categoryCard:nth-of-type(17) {
+    background: linear-gradient(to bottom, transparent 0%, #1b242e 100%), url(/images/compressed-images/rehabilitation.jpeg);
+    background-size: cover;
+    background-position: top;
+}
+
+/* .categoryCard:hover {
+    transform: scale(1.1);
+} */
+
+.categoryCard > div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-left: 12px;
+}

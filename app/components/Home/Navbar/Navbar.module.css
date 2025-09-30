@@ -1,0 +1,34 @@
+.navLinkSecond,
+.navLink {
+    letter-spacing: .5px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.socialsList > svg:hover {
+    fill: rgb(199, 199, 199);
+}
+
+.navLinkSecond {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.navItem:hover .navLink {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.navItem:hover .navLinkSecond {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.logoBox > span,
+.logoBox > span > span {
+    font-family: "Rubik Mono One", monospace;
+}
