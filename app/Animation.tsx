@@ -1,6 +1,11 @@
 import { useEffect } from 'react';
 
-const AnimationSVG = ({ path, containerId }) => {
+type AnimationSVGProps = {
+  path: string;
+  containerId: string;
+};
+
+const AnimationSVG = ({ path, containerId }: AnimationSVGProps) => {
   useEffect(() => {
     const isClient = typeof window !== 'undefined';
     if (!isClient) return;
