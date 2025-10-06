@@ -10,32 +10,9 @@ import MassIconsAnimation from "./components/Home/MassIconsAnimation/page";
 import LoadingSpinner from "./components/Loader/LoadingSpinner";
 import Services from "./components/Home/Services/Services";
 
-import { useRouter } from 'next/navigation';
-import { useEffect, useState } from 'react';
-
-
 export default function Home() {
-  const router = useRouter();
-  const [loader, setLoader] = useState(false);
-
-  useEffect(() => {
-    const handleRouteChange = () => {
-      setLoader(true);
-      setTimeout(() => setLoader(false), 500);
-    };
-
-    router.prefetch(router.pathname);
-    handleRouteChange();
-
-    return () => {
-      setLoader(false);
-    };
-  }, [router.pathname]);
-
-
   return (
     <>
-      {loader && <LoadingSpinner />}
       <Navbar />
       <Banner />
       <MassIconsAnimation />
