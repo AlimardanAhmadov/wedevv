@@ -10,18 +10,23 @@ const AnimationSVG = ({ path, containerId }: AnimationSVGProps) => {
     const isClient = typeof window !== 'undefined';
     if (!isClient) return;
 
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
     import('lottie-web').then((lottie) => {
       const animation = lottie.default.loadAnimation({
-        container: document.getElementById(containerId),
+        container,
         renderer: 'svg',
         loop: true,
         autoplay: true,
-        path: path,
+        path,
       });
+
+      return () => animation.destroy();
     });
   }, [path, containerId]);
 
-  return <div id={containerId} />;
+  return <div id={containerId}></div>;
 };
 
 export default AnimationSVG;
