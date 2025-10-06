@@ -10,7 +10,7 @@
     "ngrok": "ngrok http 3000"
   },
   "dependencies": {
-    "@react-three/fiber": "^8.17.10",
+    "@react-three/fiber": "^8.2.2",
     "@studio-freight/lenis": "^1.0.42",
     "@tiptap/extension-bullet-list": "^2.9.1",
     "@tiptap/extension-collaboration": "^2.9.1",
@@ -27,7 +27,7 @@
     "classnames": "^2.5.1",
     "emoji-picker-react": "^4.11.1",
     "framer-motion": "^11.11.9",
-    "framer-motion-3d": "^11.11.9",
+    "framer-motion-3d": "^11.18.2",
     "globe.gl": "^2.33.0",
     "install": "^0.13.0",
     "lodash": "^4.17.21",
