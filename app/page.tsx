@@ -21,7 +21,6 @@ export default function Home() {
   useEffect(() => {
     const handleRouteChange = () => {
       setLoader(true);
-
       setTimeout(() => setLoader(false), 500);
     };
 
@@ -32,6 +31,7 @@ export default function Home() {
       setLoader(false);
     };
   }, [router.pathname]);
+
 
   return (
     <>
