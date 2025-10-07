@@ -16,15 +16,8 @@ export default function Home() {
       <Navbar />
       <Banner />
       <MassIconsAnimation />
-      {/* <Categories /> */}
-      {/* <Pricing /> */}
-      {/* <CTA /> */}
-      {/* <Integrations /> */}
       <GlobalTrainers />
       <Services />
-      {/* <ProfitCard /> */}
-      {/* <Globe3D /> */}
-      {/* <Coaches /> */}
       <InfoSection title={'THE GREATEST PART? NOTHING TO LOSE.'} />
       <DiscordSection />
       <div className="relative top-[-40rem]">

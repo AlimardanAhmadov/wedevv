@@ -1,11 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-      domains: ['localhost'],
-    },
-    eslint: {
-      ignoreDuringBuilds: true,
-    },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "http",
+        hostname: "localhost",
+      },
+    ],
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
-  
-export default nextConfig;  
+
+export default nextConfig;
