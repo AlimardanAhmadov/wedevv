@@ -1263,3 +1263,26 @@ canvas {
   animation-delay: calc(5 * var(--carousel-dur) / 6);
 }
 
+
+@media screen and (max-width: 400px) {
+  #about > div:nth-of-type(2) {
+    gap: 2rem !important;
+  }
+
+  #about > div:nth-of-type(2) > div:nth-of-type(2) {
+    align-items: self-start;
+    flex-direction: column;
+  }
+
+  #about > div:nth-of-type(2) > div:nth-of-type(2) > div {
+    margin-top: 0 !important;
+  }
+
+  #clients {
+    margin-top: 6rem !important;
+  }
+
+  #career a {
+    width: 100% !important;
+  }
+}
