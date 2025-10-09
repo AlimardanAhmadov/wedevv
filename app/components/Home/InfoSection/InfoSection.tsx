@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import classes from './InfoSection.module.css';
 
 export default function InfoSection(props: any) { 
@@ -18,9 +19,9 @@ export default function InfoSection(props: any) {
                 <div className='flex flex-col gap-4 mt-3 max-w-[35rem]'>
                     At WeDev, we’re shaping the future of the web. If you’re driven by creativity, technology, and problem-solving, join our team and explore career opportunities where your ideas can truly make an impact.
                 </div>
-                <button className="mt-4 duration-200 w-[200px] transition ease-in-out bg-[#36F4A4] text-[#323232] flex flex-row justify-center items-center gap-1 text-gray-100 font-semibold inline-block px-4 py-[19px] font-medium rounded-full text-xs z-20">
+                <Link href={'https://forms.gle/k4ZHH5KMSh2hJuhv6'} target='_blank' className="mt-4 duration-200 w-[200px] transition ease-in-out bg-[#36F4A4] text-[#323232] flex flex-row justify-center items-center gap-1 text-gray-100 font-semibold inline-block px-4 py-[19px] font-medium rounded-full text-xs z-20">
                     <span className='capitalize text-[18px] text-[#494949]'>Apply Now</span>
-                </button>
+                </Link>
                 {/* <a type='button' className="w-[13rem] rounded-md text-center py-4 bg-white hover:bg-gray-300 text-black text-sm font-bold uppercase transition duration-300 ease-in-out">
                     how it works
                 </a> */}

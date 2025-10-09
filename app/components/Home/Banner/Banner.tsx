@@ -80,10 +80,10 @@ export default function Banner() {
                         </div>
                     </div>
                     <div className={`${classes.ctaButtons} flex items-center justify-center gap-4`}>
-                        <Link href={'/sign-up/coach'} className="text-center rounded-full w-40 py-4 bg-white hover:bg-gray-300 text-black text-xs font-bold uppercase transition duration-200 ease-in-out">
-                            Become a member
+                        <Link href={'https://forms.gle/KVq3ceB2wJibgmpB6'} target='_blank' className="text-center rounded-full w-40 py-4 bg-white hover:bg-gray-300 text-black text-xs font-bold uppercase transition duration-200 ease-in-out">
+                            Join Us
                         </Link>
-                        <Link href={'/sign-up/user'} className="text-center relative rounded-full w-40 px-6 py-4 text-white text-xs font-bold uppercase bg-green-600 hover:bg-green-700 transition duration-200 ease-in-out overflow-hidden">
+                        <Link href={'https://forms.gle/t6MPdQcKurSAVDbs7'} target='_blank' className="text-center relative rounded-full w-40 px-6 py-4 text-white text-xs font-bold uppercase bg-green-600 hover:bg-green-700 transition duration-200 ease-in-out overflow-hidden">
                             Let's talk
                         </Link>
                     </div>
