@@ -90,6 +90,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <meta name="trustpilot-one-time-domain-verification-id" content="c937e7ec-327b-4cb5-b41b-e4ce310df9f2"/>
+      <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
       <body className={inter.className}>{children}</body>
     </html>
   );
