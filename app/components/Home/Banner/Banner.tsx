@@ -72,9 +72,9 @@ export default function Banner() {
                         <div className='w-16 h-16'>
                             <img className='rounded-md' src="/icons/google-customer-reviews.webp" alt="google-customer-reviews" />
                         </div>
-                        <div className='w-16 h-16'>
+                        <Link href={'https://www.trustpilot.com/review/codedev.cloud'} target='_blank' className='w-16 h-16'>
                             <img className='rounded-md' src="/icons/trustpilot.webp" alt="trustpilot" />
-                        </div>
+                        </Link>
                         <div className='w-16 h-16'>
                             <img className='rounded-md' src="/icons/g2.png" alt="g2" />
                         </div>

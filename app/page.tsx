@@ -23,9 +23,6 @@ export default function Home() {
       <div className="relative top-[-40rem]">
         <Footer />
       </div>
-      <div className="trustpilot-widget" data-locale="en-US" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="68e7a8ddec0c576936e962c6" data-style-height="52px" data-style-width="100%" data-token="24118130-f150-4354-b42b-a4252b667774">
-        <a href="https://www.trustpilot.com/review/codedev.cloud" target="_blank" rel="noopener">Trustpilot</a>
-      </div>
     </>
   );
 }
