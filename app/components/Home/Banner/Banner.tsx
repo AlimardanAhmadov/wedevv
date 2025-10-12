@@ -71,7 +71,7 @@ export default function Banner() {
                     <div className={`${classes.bannerSubtitle} text-gray-300 max-w-[520px] mt-4`}>
                         At WeDev, we craft modern websites, custom web applications, and e-commerce platforms designed to elevate your business. We combine creative design with robust development to deliver solutions that drive results.
                     </div>
-                    <div className={`${classes.ctaButtons} flex items-center justify-center gap-4`}>
+                    <div className={`${classes.ctaButtons} flex items-center justify-center gap-4 mt-4`}>
                         <Link href={'https://forms.gle/CzKffqNZ46Y6t9g59'} target='_blank' className="text-center rounded-full w-40 py-4 bg-white hover:bg-gray-300 text-black text-xs font-bold uppercase transition duration-200 ease-in-out">
                             Partner with US
                         </Link>
