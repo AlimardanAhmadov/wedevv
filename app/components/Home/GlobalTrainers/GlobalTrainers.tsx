@@ -138,6 +138,37 @@ export default function GlobalTrainers() {
                         <p className='richtext text-body-sm text-gray-400'>From startups to established enterprises, businesses across different countries rely on WeDev to deliver scalable, modern, and high-performing digital solutions.</p>
                     </div>
                 </div>
+                <div className='flex flex-row items-center gap-4'>
+                    <div className='rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative overflow-hidden p-6 w-full'>
+                        <div className='flex flex-col items-start text-[30px] font-semibold'>
+                            Cathy Tattoo
+                            <div className='flex flex-row items-center gap-2'>
+                                <div className='text-[#36F4A4]' style={{ fontWeight: 'calc(300 + 200)', fontSize: 'clamp(.875rem,calc(.1905vw + .8286rem), .5rem)', lineHeight: '1.08', letterSpacing: '.04em' }}>Tattoo Artist</div>
+                                <Image width={25} height={25} alt='Chinese Flag' src={'/images/china-flag.png'} />
+                            </div> 
+                        </div>
+                        <p className='text-sm text-gray-400'>WeDev built a sleek, professional website that perfectly showcases my tattoo work and helped me attract more clients.</p>
+                    </div>
+                    <div className='rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative overflow-hidden p-6 w-full'>
+                        <div className='flex flex-col items-start text-[30px] font-semibold'>
+                            IV Solutions
+                            <div className='flex flex-row items-center gap-2'>
+                                <div className='text-[#36F4A4]' style={{ fontWeight: 'calc(300 + 200)', fontSize: 'clamp(.875rem,calc(.1905vw + .8286rem), .5rem)', lineHeight: '1.08', letterSpacing: '.04em' }}>Software Agency</div>
+                                <Image width={25} height={25} alt='Canada Flag' src={'/images/canada-flag.png'} />
+                            </div> 
+                        </div>
+                        <p className='text-sm text-gray-400'>WeDev delivered a fast, modern website that elevated our brand and helped us win more software development clients.</p>
+                    </div><div className='rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative overflow-hidden p-6 w-full'>
+                        <div className='flex flex-col items-start text-[30px] font-semibold'>
+                            Agatos
+                            <div className='flex flex-row items-center gap-2'>
+                                <div className='text-[#36F4A4]' style={{ fontWeight: 'calc(300 + 200)', fontSize: 'clamp(.875rem,calc(.1905vw + .8286rem), .5rem)', lineHeight: '1.08', letterSpacing: '.04em' }}>Tattoo Artist</div>
+                                <Image width={25} height={25} alt='Singapore Flag' src={'/images/singapore-flag.png'} />
+                            </div> 
+                        </div>
+                        <p className='text-sm text-gray-400'>WeDev transformed our online presence with a clean, high-performing website that strengthened our credibility and client engagement.</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
