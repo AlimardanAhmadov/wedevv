@@ -25,6 +25,9 @@ export default function Banner() {
 
     return (
         <>
+            <Link href={'https://www.trustpilot.com/review/codedev.cloud'} target='_blank' className='w-16 h-auto fixed bottom-0 right-0 m-4 z-10'>
+                <img className='rounded-md' src="/icons/trustpilot.webp" alt="trustpilot" />
+            </Link>
             <section className={`${classes.bannerCover} absolute top-0 left-0 right-0`}>
                 {/* <img style={{ filter: "blur(220px)" }} className='w-full h-full blur-4xl' src={'/images/banner-bg.webp'} alt="Banner Background" /> */}
                 <div
@@ -67,17 +70,6 @@ export default function Banner() {
                     </div>
                     <div className={`${classes.bannerSubtitle} text-gray-300 max-w-[520px] mt-4`}>
                         At WeDev, we craft modern websites, custom web applications, and e-commerce platforms designed to elevate your business. We combine creative design with robust development to deliver solutions that drive results.
-                    </div>
-                    <div className={`${classes.ratings} flex items-center justify-center gap-2 mt-6`}>
-                        <div className='w-16 h-16'>
-                            <img className='rounded-md' src="/icons/google-customer-reviews.webp" alt="google-customer-reviews" />
-                        </div>
-                        <Link href={'https://www.trustpilot.com/review/codedev.cloud'} target='_blank' className='w-16 h-16'>
-                            <img className='rounded-md' src="/icons/trustpilot.webp" alt="trustpilot" />
-                        </Link>
-                        <div className='w-16 h-16'>
-                            <img className='rounded-md' src="/icons/g2.png" alt="g2" />
-                        </div>
                     </div>
                     <div className={`${classes.ctaButtons} flex items-center justify-center gap-4`}>
                         <Link href={'https://forms.gle/CzKffqNZ46Y6t9g59'} target='_blank' className="text-center rounded-full w-40 py-4 bg-white hover:bg-gray-300 text-black text-xs font-bold uppercase transition duration-200 ease-in-out">

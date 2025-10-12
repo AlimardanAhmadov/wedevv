@@ -34,8 +34,7 @@
         max-width: fit-content !important;
     }
 
-    .ctaButtons,
-    .ratings {
+    .ctaButtons {
         justify-content: start !important;
         align-items: start !important;
     }
