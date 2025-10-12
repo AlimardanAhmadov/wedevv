@@ -24,7 +24,7 @@ export default function Services() {
                     </h2>
                 </section>
                 <div className="flex flex-col items-start justify-start gap-[7rem] w-full">
-                    <div className={`w-full flex flex-row items-center justify-between relative overflow-hidden`}>
+                    <div className={`work w-full flex flex-row items-center justify-between relative overflow-hidden`}>
                         <div className="flex flex-col gap-[15px]">
                             <p className="richtext text-body-sm text-gray-400 font-[400]">
                                 Web Development
@@ -58,7 +58,7 @@ export default function Services() {
                             </svg>
                         </a>
                     </div>
-                    <div className={`w-full flex flex-row items-center justify-between relative overflow-hidden`}>
+                    <div className={`work w-full flex flex-row items-center justify-between relative overflow-hidden`}>
                         <div className="flex flex-col gap-[15px]">
                             <p className="richtext text-body-sm text-gray-400 font-[400]">
                                 Web Development
@@ -91,7 +91,7 @@ export default function Services() {
                             </svg>
                         </a>
                     </div>
-                    <div className={`w-full flex flex-row items-center justify-between relative overflow-hidden`}>
+                    <div className={`work w-full flex flex-row items-center justify-between relative overflow-hidden`}>
                         <div className="flex flex-col gap-[15px]">
                             <p className="richtext text-body-sm text-gray-400 font-[400]">
                                 Web Development
