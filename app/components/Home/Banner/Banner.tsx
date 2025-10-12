@@ -80,14 +80,14 @@ export default function Banner() {
                         </div>
                     </div>
                     <div className={`${classes.ctaButtons} flex items-center justify-center gap-4`}>
-                        <Link href={'https://forms.gle/KVq3ceB2wJibgmpB6'} target='_blank' className="text-center rounded-full w-40 py-4 bg-white hover:bg-gray-300 text-black text-xs font-bold uppercase transition duration-200 ease-in-out">
-                            Join Us
+                        <Link href={'https://forms.gle/CzKffqNZ46Y6t9g59'} target='_blank' className="text-center rounded-full w-40 py-4 bg-white hover:bg-gray-300 text-black text-xs font-bold uppercase transition duration-200 ease-in-out">
+                            Partner with US
                         </Link>
                         <Link href={'https://forms.gle/t6MPdQcKurSAVDbs7'} target='_blank' className="text-center relative rounded-full w-40 px-6 py-4 text-white text-xs font-bold uppercase bg-green-600 hover:bg-green-700 transition duration-200 ease-in-out overflow-hidden">
                             Let's talk
                         </Link>
                     </div>
-                    <p className='richtext text-[13px] text-gray-400 max-w-[36rem] mt-5'>Subscribe now and enjoy 15% off all orders.</p>
+                    <p className='richtext text-[13px] text-gray-400 max-w-[36rem] mt-5'><Link className='underline' href={'https://wedev.lemonsqueezy.com/buy/4af16a94-73f2-412e-8c5a-39c9564e50bb'}>Subscribe now</Link> and enjoy 15% off all orders.</p>
                 </div>
             </div>
         </>

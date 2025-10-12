@@ -9,6 +9,7 @@ import GlobalTrainers from "./components/Home/GlobalTrainers/GlobalTrainers";
 import MassIconsAnimation from "./components/Home/MassIconsAnimation/page";
 import LoadingSpinner from "./components/Loader/LoadingSpinner";
 import Services from "./components/Home/Services/Services";
+import Works from "./components/Home/Works/Works";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <MassIconsAnimation />
       <GlobalTrainers />
       <Services />
+      <Works />
       <InfoSection title={'THE GREATEST PART? NOTHING TO LOSE.'} />
       <DiscordSection />
       <div className="relative top-[-40rem]">
