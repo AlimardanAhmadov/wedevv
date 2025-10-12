@@ -138,7 +138,7 @@ export default function GlobalTrainers() {
                         <p className='richtext text-body-sm text-gray-400'>From startups to established enterprises, businesses across different countries rely on WeDev to deliver scalable, modern, and high-performing digital solutions.</p>
                     </div>
                 </div>
-                <div className='flex flex-row items-center gap-4'>
+                <div className='flex flex-row items-center gap-4 testimonials'>
                     <div className='rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative overflow-hidden p-6 w-full'>
                         <div className='flex flex-col items-start text-[30px] font-semibold'>
                             Cathy Tattoo

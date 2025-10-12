@@ -109,3 +109,10 @@
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .testimonials {
+        flex-direction: column !important;
+        gap: 2rem !important;
+        align-items: center !important;
+    }
+}
