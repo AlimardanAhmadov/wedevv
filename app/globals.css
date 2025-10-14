@@ -1124,7 +1124,7 @@ canvas {
   }
 
   .card-grid > div {
-    padding-right: 1.5rem;
+    padding-right: 2rem;
   }
 }
 
@@ -1154,7 +1154,12 @@ canvas {
   width: 100%;
   overflow: visible;
   will-change: transform;
-  animation: cardgrid-6 var(--carousel-dur) linear infinite;
+}
+
+@media screen and (min-width: 800px) {
+  .card-grid {
+    animation: cardgrid-6 var(--carousel-dur) cubic-bezier(1, -0.41, 0.13, 1.14) infinite;
+  }
 }
 
 .card-grid > div { flex: 0 0 100%; }
@@ -1450,21 +1455,3 @@ canvas {
     }
 }
 
-. {
-  opacity: 0;
-  transform: translateY(200px);
-  transition: opacity 0.5s, transform 0.5s;
-  
-  animation-timeline: view();
-  animation-range-start: cover 0%;
-  animation-range-end: cover 50%;
-  animation-name: slide-and-appear;
-  animation-fill-mode: forwards;
-}
-
-@keyframes slide-and-appear {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
