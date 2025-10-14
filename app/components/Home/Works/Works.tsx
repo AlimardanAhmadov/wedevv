@@ -13,7 +13,7 @@ export default function Services() {
             </div>
             <div className='flex flex-col gap-[3rem]'>
                 <div className='absolute z-10 left-0 border-b w-full top-[-5rem] hidden' style={{ height: 'clamp(2rem,calc(1.5238vw + 1.6286rem),3rem)', borderColor: '#151413ff', background: '#151413ff', borderTopLeftRadius: 'clamp(2rem,calc(1.5238vw + 1.6286rem),3rem)', borderTopRightRadius: 'clamp(2rem,calc(1.5238vw + 1.6286rem),3rem)' }}></div>
-                <section style={{ paddingTop: 'clamp(3rem,calc(4.9524vw + 1.7929rem),2.25rem)' }}>
+                <section className=" " style={{ paddingTop: 'clamp(3rem,calc(4.9524vw + 1.7929rem),2.25rem)' }}>
                     <h2 className='flex flex-col products-title font-[300] text-[#fff] text-left mx-auto gap-2' style={{ lineHeight: '1.04', letterSpacing: '-.04em', fontSize: 'clamp(2.5rem,calc(3.8095vw + 1.5714rem),5rem)', textWrap: 'balance' }}>
                         <div className='uppercase text-[#36F4A4]' style={{ fontWeight: 'calc(300 + 200)', fontSize: 'clamp(.875rem,calc(.1905vw + .8286rem),1rem)', lineHeight: '1.08', letterSpacing: '.04em' }}>Explore Our Works</div>
                         <div>
@@ -24,7 +24,7 @@ export default function Services() {
                     </h2>
                 </section>
                 <div className="flex flex-col items-start justify-start gap-[7rem] w-full">
-                    <div className={`work w-full flex flex-row items-center justify-between relative overflow-hidden`}>
+                    <div className={` work w-full flex flex-row items-center justify-between relative overflow-hidden`}>
                         <div className="flex flex-col gap-[15px]">
                             <p className="richtext text-body-sm text-gray-400 font-[400]">
                                 Web Development
@@ -58,7 +58,7 @@ export default function Services() {
                             </svg>
                         </a>
                     </div>
-                    <div className={`work w-full flex flex-row items-center justify-between relative overflow-hidden`}>
+                    <div className={` work w-full flex flex-row items-center justify-between relative overflow-hidden`}>
                         <div className="flex flex-col gap-[15px]">
                             <p className="richtext text-body-sm text-gray-400 font-[400]">
                                 Web Development
@@ -91,7 +91,7 @@ export default function Services() {
                             </svg>
                         </a>
                     </div>
-                    <div className={`work w-full flex flex-row items-center justify-between relative overflow-hidden`}>
+                    <div className={` work w-full flex flex-row items-center justify-between relative overflow-hidden`}>
                         <div className="flex flex-col gap-[15px]">
                             <p className="richtext text-body-sm text-gray-400 font-[400]">
                                 Web Development

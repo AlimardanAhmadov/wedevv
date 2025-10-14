@@ -59,7 +59,7 @@ export default function GlobalTrainers() {
                         Local and global
                     </span>
                 </div> */}
-                <section style={{ paddingTop: 'clamp(3rem,calc(4.9524vw + 1.7929rem),2.25rem)' }}>
+                <section className='' style={{ paddingTop: 'clamp(3rem,calc(4.9524vw + 1.7929rem),2.25rem)' }}>
                     <h2 className='flex flex-col products-title font-[300] text-[#fff] text-left mx-auto gap-2' style={{ lineHeight: '1.04', letterSpacing: '-.04em', fontSize: 'clamp(2.5rem,calc(3.8095vw + 1.5714rem),5rem)', textWrap: 'balance' }}>
                         <div className='uppercase text-[#36F4A4]' style={{ fontWeight: 'calc(300 + 200)', fontSize: 'clamp(.875rem,calc(.1905vw + .8286rem),1rem)', lineHeight: '1.08', letterSpacing: '.04em' }}>Local and global</div>
                         <div>
@@ -84,7 +84,7 @@ export default function GlobalTrainers() {
                         </div>
                         <span className="absolute ml-8 text-[11px] font-semibold">Brazil</span>
                     </div>
-                    <div className="dot-item absolute flex gap-2 items-center z-10 will-change-[opacity] transition-opacity duration-300 user-select-none pointer-events-none opacity-100 left-[76%] top-[43%]">
+                    <div className=" dot-item absolute flex gap-2 items-center z-10 will-change-[opacity] transition-opacity duration-300 user-select-none pointer-events-none opacity-100 left-[76%] top-[43%]">
                         <div className="aspect-square w-6 flex justify-center items-center">
                             <div className="rounded-full bg-[#418acd]/[.4] opacity-30 aspect-square transition-all duration-300 w-3.5 lg:w-5 xl:w-6"></div>
                             <div className="aspect-square w-1 md:w-2 shadow rounded-full bg-[#8FB8D0] absolute z-10 will-change-[opacity] transition-opacity duration-300 opacity-100"></div>
@@ -139,7 +139,7 @@ export default function GlobalTrainers() {
                     </div>
                 </div>
                 <div className='flex flex-row items-center gap-4 testimonials'>
-                    <div className='rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative overflow-hidden p-6 w-full'>
+                    <div className=' rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative overflow-hidden p-6 w-full'>
                         <div className='flex flex-col items-start text-[30px] font-semibold'>
                             Cathy Tattoo
                             <div className='flex flex-row items-center gap-2'>
@@ -149,7 +149,7 @@ export default function GlobalTrainers() {
                         </div>
                         <p className='text-sm text-gray-400'>WeDev built a sleek, professional website that perfectly showcases my tattoo work and helped me attract more clients.</p>
                     </div>
-                    <div className='rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative overflow-hidden p-6 w-full'>
+                    <div className=' rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative overflow-hidden p-6 w-full'>
                         <div className='flex flex-col items-start text-[30px] font-semibold'>
                             IV Solutions
                             <div className='flex flex-row items-center gap-2'>
@@ -158,7 +158,8 @@ export default function GlobalTrainers() {
                             </div> 
                         </div>
                         <p className='text-sm text-gray-400'>WeDev delivered a fast, modern website that elevated our brand and helped us win more software development clients.</p>
-                    </div><div className='rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative overflow-hidden p-6 w-full'>
+                    </div>
+                    <div className=' rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative overflow-hidden p-6 w-full'>
                         <div className='flex flex-col items-start text-[30px] font-semibold'>
                             Agatos
                             <div className='flex flex-row items-center gap-2'>

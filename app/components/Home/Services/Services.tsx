@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Services() {
     return (
         <div id="services" className="relative top-[27rem] overflow-hidden">
-            <div className='px-[5rem] flex flex-col gap-[3rem]'>
+            <div className='px-[5rem] flex flex-col gap-[3rem] '>
                 <div className='absolute z-10 left-0 border-b w-full top-[-5rem] hidden' style={{ height: 'clamp(2rem,calc(1.5238vw + 1.6286rem),3rem)', borderColor: '#151413ff', background: '#151413ff', borderTopLeftRadius: 'clamp(2rem,calc(1.5238vw + 1.6286rem),3rem)', borderTopRightRadius: 'clamp(2rem,calc(1.5238vw + 1.6286rem),3rem)' }}></div>
                 <section style={{ paddingTop: 'clamp(3rem,calc(4.9524vw + 1.7929rem),2.25rem)' }}>
                     <h2 className='flex flex-col products-title font-[300] text-[#fff] text-left mx-auto gap-2' style={{ lineHeight: '1.04', letterSpacing: '-.04em', fontSize: 'clamp(2.5rem,calc(3.8095vw + 1.5714rem),5rem)', textWrap: 'balance' }}>

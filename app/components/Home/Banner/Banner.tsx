@@ -28,6 +28,14 @@ export default function Banner() {
             <Link href={'https://www.trustpilot.com/review/codedev.cloud'} target='_blank' className='w-16 h-auto fixed bottom-0 right-0 m-4 z-10'>
                 <img className='rounded-md' src="/icons/trustpilot.webp" alt="trustpilot" />
             </Link>
+            <svg aria-hidden="true" style={{ fill: '#2b2b2bff' }} className="w-full h-full absolute top-0 bottom-0 left-0 right-0 -z-10">
+                <defs>
+                    <pattern id="«R1cdb»" width="10" height="10" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0">
+                    <circle id="pattern-circle" cx="1" cy="1" r="1"></circle>
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" strokeWidth="0" fill="url(#«R1cdb»)"></rect>
+            </svg>
             <section className={`${classes.bannerCover} absolute top-0 left-0 right-0`}>
                 {/* <img style={{ filter: "blur(220px)" }} className='w-full h-full blur-4xl' src={'/images/banner-bg.webp'} alt="Banner Background" /> */}
                 <div
@@ -59,7 +67,7 @@ export default function Banner() {
                     <div className='absolute z-0 glow-0 top-[8cqw] -left-[4cqw] w-[20cqw] h-[20cqw] rounded-[340px] opacity-20 transform scale-200 rotate-45 bg-[radial-gradient(#157076,transparent_65%,transparent)]'></div>
                 </div>
                 <div>
-                    <div className={`${classes.bannerTitle} text-[3rem] font-[800] max-w-[520px]`}>
+                    <div className={`${classes.bannerTitle} text-[3rem] font-[800] max-w-[520px]`} data-aos="fade-up" data-aos-duration="1000">
                         <span>Empowering Your Business With</span>
                         <span
                             key={index}
