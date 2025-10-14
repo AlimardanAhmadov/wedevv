@@ -70,28 +70,21 @@ export default function GlobalTrainers() {
                     </h2>
                 </section>
                 <div className={`clients rounded-2xl bg-[#07121f] flex flex-col items-start p-12 relative overflow-hidden`}>
-                    <div className="dot-item absolute flex gap-2 items-center z-10 will-change-[opacity] transition-opacity duration-300 user-select-none pointer-events-none opacity-100 left-[59%] top-[32%]">
+                    <div className="dot-item absolute flex gap-2 items-center z-10 will-change-[opacity] transition-opacity duration-300 user-select-none pointer-events-none opacity-100 left-[43%] top-[32%]">
                         <div className="aspect-square w-6 flex justify-center items-center">
                             <div className="rounded-full bg-[#418acd]/[.4] opacity-30 aspect-square transition-all duration-300 w-3.5 lg:w-5 xl:w-6"></div>
                             <div className="aspect-square w-1 md:w-2 shadow rounded-full bg-[#8FB8D0] absolute z-10 will-change-[opacity] transition-opacity duration-300 opacity-100"></div>
                         </div>
                         <span className="absolute ml-8 text-[11px] font-semibold">USA</span>
                     </div>
-                    <div className="dot-item absolute flex gap-2 items-center z-10 will-change-[opacity] transition-opacity duration-300 user-select-none pointer-events-none opacity-100 left-[64%] top-[57%]">
-                        <div className="aspect-square w-6 flex justify-center items-center">
-                            <div className="rounded-full bg-[#418acd]/[.4] opacity-30 aspect-square transition-all duration-300 w-3.5 lg:w-5 xl:w-6"></div>
-                            <div className="aspect-square w-1 md:w-2 shadow rounded-full bg-[#8FB8D0] absolute z-10 will-change-[opacity] transition-opacity duration-300 opacity-100"></div>
-                        </div>
-                        <span className="absolute ml-8 text-[11px] font-semibold">Brazil</span>
-                    </div>
-                    <div className=" dot-item absolute flex gap-2 items-center z-10 will-change-[opacity] transition-opacity duration-300 user-select-none pointer-events-none opacity-100 left-[76%] top-[43%]">
+                    <div className=" dot-item absolute flex gap-2 items-center z-10 will-change-[opacity] transition-opacity duration-300 user-select-none pointer-events-none opacity-100 left-[62%] top-[43%]">
                         <div className="aspect-square w-6 flex justify-center items-center">
                             <div className="rounded-full bg-[#418acd]/[.4] opacity-30 aspect-square transition-all duration-300 w-3.5 lg:w-5 xl:w-6"></div>
                             <div className="aspect-square w-1 md:w-2 shadow rounded-full bg-[#8FB8D0] absolute z-10 will-change-[opacity] transition-opacity duration-300 opacity-100"></div>
                         </div>
                         <span className="absolute ml-8 text-[11px] font-semibold">Africa</span>
                     </div>
-                    <div className="dot-item absolute flex gap-2 items-center z-10 will-change-[opacity] transition-opacity duration-300 user-select-none pointer-events-none opacity-100 left-[74%] top-[27%]">
+                    <div className="dot-item absolute flex gap-2 items-center z-10 will-change-[opacity] transition-opacity duration-300 user-select-none pointer-events-none opacity-100 left-[65%] top-[27%]">
                         <div className="aspect-square w-6 flex justify-center items-center">
                             <div className="rounded-full bg-[#418acd]/[.4] opacity-30 aspect-square transition-all duration-300 w-3.5 lg:w-5 xl:w-6"></div>
                             <div className="aspect-square w-1 md:w-2 shadow rounded-full bg-[#8FB8D0] absolute z-10 will-change-[opacity] transition-opacity duration-300 opacity-100"></div>
@@ -138,8 +131,25 @@ export default function GlobalTrainers() {
                         <p className='richtext text-body-sm text-gray-400'>From startups to established enterprises, businesses across different countries rely on WeDev to deliver scalable, modern, and high-performing digital solutions.</p>
                     </div>
                 </div>
-                <div className='flex flex-row items-center gap-4 testimonials'>
-                    <div className=' rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative overflow-hidden p-6 w-full'>
+                <div className='flex flex-row items-center gap-4 testimonials relative'>
+                    <div className=' rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative p-6 w-full'>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="43" fill="none" viewBox="0 0 84 63" className="absolute top-[-30px] right-0 mr-2 z-1">
+                            <path fill="#36F4A4" fill-rule="evenodd" d="M10.5 0A10.5 10.5 0 000 10.5v15.75a10.5 10.5 0 0010.5 10.5h15.75A15.75 15.75 0 0110.5 52.5H5.25a5.25 5.25 0 100 10.5h5.25a26.25 26.25 0 0026.25-26.25V10.5A10.5 10.5 0 0026.25 0H10.5zm47.25 0a10.5 10.5 0 00-10.5 10.5v15.75a10.5 10.5 0 0010.5 10.5H73.5A15.75 15.75 0 0157.75 52.5H52.5a5.25 5.25 0 100 10.5h5.25A26.25 26.25 0 0084 36.75V10.5A10.5 10.5 0 0073.5 0H57.75z" clip-rule="evenodd"></path>
+                            <path fill="url(#paint0_linear_119_6)" fill-rule="evenodd" d="M10.5 0A10.5 10.5 0 000 10.5v15.75a10.5 10.5 0 0010.5 10.5h15.75A15.75 15.75 0 0110.5 52.5H5.25a5.25 5.25 0 100 10.5h5.25a26.25 26.25 0 0026.25-26.25V10.5A10.5 10.5 0 0026.25 0H10.5zm47.25 0a10.5 10.5 0 00-10.5 10.5v15.75a10.5 10.5 0 0010.5 10.5H73.5A15.75 15.75 0 0157.75 52.5H52.5a5.25 5.25 0 100 10.5h5.25A26.25 26.25 0 0084 36.75V10.5A10.5 10.5 0 0073.5 0H57.75z" clip-rule="evenodd"></path>
+                            <defs>
+                                <linearGradient id="paint0_linear_119_6" x1="21" x2="84" y1="63" y2="-25.5" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#225480ff"></stop><stop offset="1" stop-color="#36F4A4"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <svg aria-hidden="true" style={{ fill: '#00000087' }} className="w-full h-full absolute top-0 bottom-0 left-0 right-0 -z-10 rounded-2xl">
+                            <defs>
+                                <pattern id="«R1cdb»" width="10" height="10" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0">
+                                <circle id="pattern-circle" cx="1" cy="1" r="1"></circle>
+                                </pattern>
+                            </defs>
+                            <rect width="100%" height="100%" strokeWidth="0" fill="url(#«R1cdb»)"></rect>
+                        </svg>
                         <div className='flex flex-col items-start text-[30px] font-semibold'>
                             Cathy Tattoo
                             <div className='flex flex-row items-center gap-2'>
@@ -149,7 +159,24 @@ export default function GlobalTrainers() {
                         </div>
                         <p className='text-sm text-gray-400'>WeDev built a sleek, professional website that perfectly showcases my tattoo work and helped me attract more clients.</p>
                     </div>
-                    <div className=' rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative overflow-hidden p-6 w-full'>
+                    <div className=' rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative p-6 w-full'>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="43" fill="none" viewBox="0 0 84 63" className="absolute top-[-30px] right-0 mr-2 z-1">
+                            <path fill="#36F4A4" fill-rule="evenodd" d="M10.5 0A10.5 10.5 0 000 10.5v15.75a10.5 10.5 0 0010.5 10.5h15.75A15.75 15.75 0 0110.5 52.5H5.25a5.25 5.25 0 100 10.5h5.25a26.25 26.25 0 0026.25-26.25V10.5A10.5 10.5 0 0026.25 0H10.5zm47.25 0a10.5 10.5 0 00-10.5 10.5v15.75a10.5 10.5 0 0010.5 10.5H73.5A15.75 15.75 0 0157.75 52.5H52.5a5.25 5.25 0 100 10.5h5.25A26.25 26.25 0 0084 36.75V10.5A10.5 10.5 0 0073.5 0H57.75z" clip-rule="evenodd"></path>
+                            <path fill="url(#paint0_linear_119_6)" fill-rule="evenodd" d="M10.5 0A10.5 10.5 0 000 10.5v15.75a10.5 10.5 0 0010.5 10.5h15.75A15.75 15.75 0 0110.5 52.5H5.25a5.25 5.25 0 100 10.5h5.25a26.25 26.25 0 0026.25-26.25V10.5A10.5 10.5 0 0026.25 0H10.5zm47.25 0a10.5 10.5 0 00-10.5 10.5v15.75a10.5 10.5 0 0010.5 10.5H73.5A15.75 15.75 0 0157.75 52.5H52.5a5.25 5.25 0 100 10.5h5.25A26.25 26.25 0 0084 36.75V10.5A10.5 10.5 0 0073.5 0H57.75z" clip-rule="evenodd"></path>
+                            <defs>
+                                <linearGradient id="paint0_linear_119_6" x1="21" x2="84" y1="63" y2="-25.5" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#225480ff"></stop><stop offset="1" stop-color="#36F4A4"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <svg aria-hidden="true" style={{ fill: '#00000087' }} className="w-full h-full absolute top-0 bottom-0 left-0 right-0 -z-10 rounded-2xl">
+                            <defs>
+                                <pattern id="«R1cdb»" width="10" height="10" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0">
+                                <circle id="pattern-circle" cx="1" cy="1" r="1"></circle>
+                                </pattern>
+                            </defs>
+                            <rect width="100%" height="100%" strokeWidth="0" fill="url(#«R1cdb»)"></rect>
+                        </svg>
                         <div className='flex flex-col items-start text-[30px] font-semibold'>
                             IV Solutions
                             <div className='flex flex-row items-center gap-2'>
@@ -159,7 +186,24 @@ export default function GlobalTrainers() {
                         </div>
                         <p className='text-sm text-gray-400'>WeDev delivered a fast, modern website that elevated our brand and helped us win more software development clients.</p>
                     </div>
-                    <div className=' rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative overflow-hidden p-6 w-full'>
+                    <div className=' rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative p-6 w-full'>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="43" fill="none" viewBox="0 0 84 63" className="absolute top-[-30px] right-0 mr-2 z-1">
+                            <path fill="#36F4A4" fill-rule="evenodd" d="M10.5 0A10.5 10.5 0 000 10.5v15.75a10.5 10.5 0 0010.5 10.5h15.75A15.75 15.75 0 0110.5 52.5H5.25a5.25 5.25 0 100 10.5h5.25a26.25 26.25 0 0026.25-26.25V10.5A10.5 10.5 0 0026.25 0H10.5zm47.25 0a10.5 10.5 0 00-10.5 10.5v15.75a10.5 10.5 0 0010.5 10.5H73.5A15.75 15.75 0 0157.75 52.5H52.5a5.25 5.25 0 100 10.5h5.25A26.25 26.25 0 0084 36.75V10.5A10.5 10.5 0 0073.5 0H57.75z" clip-rule="evenodd"></path>
+                            <path fill="url(#paint0_linear_119_6)" fill-rule="evenodd" d="M10.5 0A10.5 10.5 0 000 10.5v15.75a10.5 10.5 0 0010.5 10.5h15.75A15.75 15.75 0 0110.5 52.5H5.25a5.25 5.25 0 100 10.5h5.25a26.25 26.25 0 0026.25-26.25V10.5A10.5 10.5 0 0026.25 0H10.5zm47.25 0a10.5 10.5 0 00-10.5 10.5v15.75a10.5 10.5 0 0010.5 10.5H73.5A15.75 15.75 0 0157.75 52.5H52.5a5.25 5.25 0 100 10.5h5.25A26.25 26.25 0 0084 36.75V10.5A10.5 10.5 0 0073.5 0H57.75z" clip-rule="evenodd"></path>
+                            <defs>
+                                <linearGradient id="paint0_linear_119_6" x1="21" x2="84" y1="63" y2="-25.5" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#225480ff"></stop><stop offset="1" stop-color="#36F4A4"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <svg aria-hidden="true" style={{ fill: '#00000087' }} className="w-full h-full absolute top-0 bottom-0 left-0 right-0 -z-10 rounded-2xl">
+                            <defs>
+                                <pattern id="«R1cdb»" width="10" height="10" patternUnits="userSpaceOnUse" patternContentUnits="userSpaceOnUse" x="0" y="0">
+                                <circle id="pattern-circle" cx="1" cy="1" r="1"></circle>
+                                </pattern>
+                            </defs>
+                            <rect width="100%" height="100%" strokeWidth="0" fill="url(#«R1cdb»)"></rect>
+                        </svg>
                         <div className='flex flex-col items-start text-[30px] font-semibold'>
                             Agatos
                             <div className='flex flex-row items-center gap-2'>
