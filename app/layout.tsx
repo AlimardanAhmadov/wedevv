@@ -168,8 +168,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
-        <meta name="msvalidate.01" content="YOUR_BING_VERIFICATION_CODE" />
+        <meta name="google-site-verification" content="RXqoQNtTKnjwxpNpnRnyexb-NE4Hrzuwf1huTZeTAsE" />
         <meta name="trustpilot-one-time-domain-verification-id" content="c937e7ec-327b-4cb5-b41b-e4ce310df9f2" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-86V79QKZXX"></script>
         <script
