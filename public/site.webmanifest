@@ -1,0 +1,22 @@
+{
+  "name": "WeDev Software Development Agency",
+  "short_name": "WeDev",
+  "description": "WeDev is a world-class software development agency specializing in custom web, mobile, and AI-powered applications.",
+  "icons": [
+    {
+      "src": "/images/logo-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0f172a",
+  "background_color": "#0f172a",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
