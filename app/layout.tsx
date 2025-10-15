@@ -118,9 +118,6 @@ export default function RootLayout({
       "@type": "GeoShape",
       "description": "Serving clients in the United States, Canada, and Europe.",
     },
-    "sameAs": [
-      "https://www.linkedin.com/company/your-wedev-linkedin",
-    ],
     "makesOffer": [
         {
           "@type": "Offer",
