@@ -79,9 +79,9 @@ export const metadata: Metadata = {
   },
   
   icons: {
-    icon: "/images/logo-icon.png",
-    shortcut: "/images/logo-icon.png",
-    apple: "/apple-touch-icon.png",
+    icon: "/logo-icon.png",
+    shortcut: "/logo-icon.png",
+    apple: "/logo-icon.png",
   },
   
   category: "Technology",
