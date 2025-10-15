@@ -29,7 +29,7 @@ export default function MassIconsAnimation() {
                 <div className="mx-[5rem] flex flex-col gap-[4rem] relative w-full">
                     <div className='flex flex-col gap-2 items-start '>
                         <section>
-                            <h2 className='flex flex-col products-title text-left font-[300] text-[#fff] text-left mx-auto gap-2' style={{ lineHeight: '1.04', letterSpacing: '-.04em', fontSize: 'clamp(2.5rem,calc(3.8095vw + 1.5714rem),4rem)', textWrap: 'balance' }}>
+                            <h2 className='flex flex-col products-title text-left font-[300] text-[#fff] mx-auto gap-2' style={{ lineHeight: '1.04', letterSpacing: '-.04em', fontSize: 'clamp(2.5rem,calc(3.8095vw + 1.5714rem),4rem)', textWrap: 'balance' }}>
                                 <div>
                                     <span>
                                         About Us. <span className='text-[#36F4A4]'>All-in-One</span> <br /> Digital Expertise.

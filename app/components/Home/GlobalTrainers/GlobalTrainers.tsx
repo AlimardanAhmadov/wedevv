@@ -70,34 +70,6 @@ export default function GlobalTrainers() {
                     </h2>
                 </section>
                 <div className={`clients rounded-2xl bg-[#07121f] flex flex-col items-start p-12 relative overflow-hidden`}>
-                    <div className="dot-item absolute flex gap-2 items-center z-10 will-change-[opacity] transition-opacity duration-300 user-select-none pointer-events-none opacity-100 left-[43%] top-[32%]">
-                        <div className="aspect-square w-6 flex justify-center items-center">
-                            <div className="rounded-full bg-[#418acd]/[.4] opacity-30 aspect-square transition-all duration-300 w-3.5 lg:w-5 xl:w-6"></div>
-                            <div className="aspect-square w-1 md:w-2 shadow rounded-full bg-[#8FB8D0] absolute z-10 will-change-[opacity] transition-opacity duration-300 opacity-100"></div>
-                        </div>
-                        <span className="absolute ml-8 text-[11px] font-semibold">USA</span>
-                    </div>
-                    <div className=" dot-item absolute flex gap-2 items-center z-10 will-change-[opacity] transition-opacity duration-300 user-select-none pointer-events-none opacity-100 left-[62%] top-[43%]">
-                        <div className="aspect-square w-6 flex justify-center items-center">
-                            <div className="rounded-full bg-[#418acd]/[.4] opacity-30 aspect-square transition-all duration-300 w-3.5 lg:w-5 xl:w-6"></div>
-                            <div className="aspect-square w-1 md:w-2 shadow rounded-full bg-[#8FB8D0] absolute z-10 will-change-[opacity] transition-opacity duration-300 opacity-100"></div>
-                        </div>
-                        <span className="absolute ml-8 text-[11px] font-semibold">Africa</span>
-                    </div>
-                    <div className="dot-item absolute flex gap-2 items-center z-10 will-change-[opacity] transition-opacity duration-300 user-select-none pointer-events-none opacity-100 left-[65%] top-[27%]">
-                        <div className="aspect-square w-6 flex justify-center items-center">
-                            <div className="rounded-full bg-[#418acd]/[.4] opacity-30 aspect-square transition-all duration-300 w-3.5 lg:w-5 xl:w-6"></div>
-                            <div className="aspect-square w-1 md:w-2 shadow rounded-full bg-[#8FB8D0] absolute z-10 will-change-[opacity] transition-opacity duration-300 opacity-100"></div>
-                        </div>
-                        <span className="absolute ml-8 text-[11px] font-semibold">Europe</span>
-                    </div>
-                    <div className="dot-item absolute flex gap-2 items-center z-10 will-change-[opacity] transition-opacity duration-300 user-select-none pointer-events-none opacity-100 left-[86%] top-[35%]">
-                        <div className="aspect-square w-6 flex justify-center items-center">
-                            <div className="rounded-full bg-[#418acd]/[.4] opacity-30 aspect-square transition-all duration-300 w-3.5 lg:w-5 xl:w-6"></div>
-                            <div className="aspect-square w-1 md:w-2 shadow rounded-full bg-[#8FB8D0] absolute z-10 will-change-[opacity] transition-opacity duration-300 opacity-100"></div>
-                        </div>
-                        <span className="absolute ml-8 text-[11px] font-semibold">Asia</span>
-                    </div>
                     <div className="orb1 absolute z-0 glow-2 top-[12cqw] left-[39cqw] w-[13rem] h-[13rem] rounded-full opacity-30 transform scale-200 -rotate-[30deg] bg-[radial-gradient(ellipse_at_center,rgb(54,113,162,0.21),#06101c_75%,#06101c)]"></div>
                     <div className="orb2 absolute z-0 glow-2 top-[13cqw] left-[17cqw] w-[13rem] h-[13rem] rounded-full opacity-30 transform scale-200 -rotate-[30deg] bg-[radial-gradient(ellipse_at_center,rgb(54,113,162,0.4),#06101c_75%,#06101c)]"></div>
                     <div className='flex flex-row gap-[4rem] w-full'>

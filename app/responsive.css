@@ -44,9 +44,6 @@
     .clients {
         padding: 2rem !important;
     }
-    .dot-item {
-        display: none !important;
-    }
 
     #services {
         top: 11rem !important;
@@ -65,16 +62,19 @@
     }
 
     #career {
-        top: 62rem !important;
-        margin-left: 1.5rem !important;
-        margin-right: 1.5rem !important;
-        padding: 2rem !important;
+        top: -34rem !important;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
     }
 
     #subscription {
-        margin-left: 1.5rem !important;
-        margin-right: 1.5rem !important;
-        padding: 2rem !important;
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    #career > div,
+    #subscription > div {
+        padding: 1.5rem !important;
     }
 
     #works {
@@ -120,6 +120,10 @@
 
     footer span {
         width: auto !important;
+    }
+
+    .products-title {
+        font-size: clamp(1.5rem, calc(3.8095vw + 3.5714rem), 2rem) !important;
     }
 }
 

@@ -58,11 +58,9 @@ export default function Banner() {
                 <div className="orb orb3">
                     <div className='absolute z-0 glow-0 top-[1cqw] -left-[4cqw] w-[20cqw] h-[20cqw] rounded-[340px] opacity-20 transform scale-200 rotate-45 bg-[radial-gradient(#157076,transparent_65%,transparent)]'></div>
                 </div>
-
                 <div className="orb orb4">
                     <div className='absolute z-0 glow-0 top-[6cqw] -left-[4cqw] w-[20cqw] h-[20cqw] rounded-[340px] opacity-20 transform scale-200 rotate-45 bg-[radial-gradient(#157076,transparent_65%,transparent)]'></div>
                 </div>
-
                 <div className="orb orb5">
                     <div className='absolute z-0 glow-0 top-[8cqw] -left-[4cqw] w-[20cqw] h-[20cqw] rounded-[340px] opacity-20 transform scale-200 rotate-45 bg-[radial-gradient(#157076,transparent_65%,transparent)]'></div>
                 </div>
