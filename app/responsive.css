@@ -70,6 +70,7 @@
 
     #services {
         top: 11rem !important;
+        margin-top: 4rem;
     }
 
     #services > div:nth-of-type(1) {
