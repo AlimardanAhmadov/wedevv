@@ -40,7 +40,7 @@
     }
 
     #clients {
-        margin-top: 18rem;
+        margin-top: 9rem;
     }
 
     #about {
@@ -63,13 +63,9 @@
     }
 
     #clients > div {
-        top: 7rem !important;
+        top: 13rem !important;
         padding-left: 1.5rem !important;
         padding-right: 1.5rem !important;
-    }
-
-    .clients {
-        padding: 2rem !important;
     }
 
     #services {

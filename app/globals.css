@@ -1054,7 +1054,7 @@ canvas {
   grid-template-rows: auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .card-grid {
     margin-top: 0;
   }
