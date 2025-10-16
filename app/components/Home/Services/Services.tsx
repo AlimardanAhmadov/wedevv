@@ -8,13 +8,13 @@ export default function Services() {
                 <div className='absolute z-10 left-0 border-b w-full top-[-5rem] hidden' style={{ height: 'clamp(2rem,calc(1.5238vw + 1.6286rem),3rem)', borderColor: '#151413ff', background: '#151413ff', borderTopLeftRadius: 'clamp(2rem,calc(1.5238vw + 1.6286rem),3rem)', borderTopRightRadius: 'clamp(2rem,calc(1.5238vw + 1.6286rem),3rem)' }}></div>
                 <section style={{ paddingTop: 'clamp(3rem,calc(4.9524vw + 1.7929rem),2.25rem)' }}>
                     <h2 className='flex flex-col products-title font-[300] text-[#fff] text-left mx-auto gap-2' style={{ lineHeight: '1.04', letterSpacing: '-.04em', fontSize: 'clamp(2.5rem,calc(3.8095vw + 1.5714rem),5rem)', textWrap: 'balance' }}>
-                        <div className='uppercase text-[#36F4A4]' style={{ fontWeight: 'calc(300 + 200)', fontSize: 'clamp(.875rem,calc(.1905vw + .8286rem),1rem)', lineHeight: '1.08', letterSpacing: '.04em' }}>Services</div>
+                        <div className='uppercase gradient-text' style={{ fontWeight: 'calc(300 + 200)', fontSize: 'clamp(.875rem,calc(.1905vw + .8286rem),1rem)', lineHeight: '1.08', letterSpacing: '.04em' }}>Services</div>
                         <div>
                             <span>
                                 The one web partner behind it all.
                             </span>
                             <span className='text-[#b9b3acff]'> </span>
-                            <span className='text-[#b9b3acff]'>All in one.</span>
+                            <span className='gradient-text'>All in one.</span>
                         </div>
                     </h2>
                 </section>
@@ -56,7 +56,7 @@ export default function Services() {
                 </div>
                 <div className='card-grid z-0 relative z-0 overflow-hidden mt-[2.5rem] w-full overflow-hidden'>
                     <div className='text-white opacity-1 duration-800'>
-                        <div className='relative mx-auto w-full h-full overflow-hidden bg-[#07121f]'>
+                        <div className='relative mx-auto w-full h-full overflow-hidden bg-transparent border-2 border-dashed border-[#808080]'>
                             <div className="w-[200%] md:w-full h-full absolute -left-1/2 md:left-0">
                                 <svg viewBox="0 0 1415 597" fill="none" className="w-full absolute bottom-[3rem]">
                                     <g clipPath="url(#clip0_65_385)">
@@ -2472,7 +2472,7 @@ export default function Services() {
                             <div className='relative flex h-full max-w-[400px] flex-col justify-end'>
                                 <h3 className='relative mb-auto' style={{ lineHeight: '1.12', paddingBottom: 'clamp(4rem, 1.7714rem + 9.1429vw, 10rem)', fontSize: 'clamp(1.5rem, 1.2214rem + 1.1429vw, 2.39rem)' }}>Custom Website Development</h3>
                                 <div className='mb-[1rem] flex items-center gap-[0.75rem] font-[300]' style={{ letterSpacing: '-0.04em', lineHeight: '0.96',  fontSize: 'clamp(4rem, 2.5143rem + 6.0952vw, 8rem)' }}>
-                                    <svg viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-[0.9em] shrink-0 text-[#36F4A4]">
+                                    <svg viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-[0.9em] shrink-0 text-[#3e6af0]">
                                         <g style={{ transformOrigin: "50% 50%" }}>
                                             <path d="M17.7137 90L90 17.7137" stroke="currentColor" stroke-width="7.22862"></path>
                                             <path d="M90 90L90 17.7137L17.7137 17.7137" stroke="currentColor" stroke-width="7.22862"></path>
@@ -2486,7 +2486,7 @@ export default function Services() {
                         </div>
                     </div>
                     <div className='text-white opacity-1 duration-800'>
-                        <div className='relative mx-auto w-full h-full overflow-hidden bg-[#07121f] '>
+                        <div className='relative mx-auto w-full h-full overflow-hidden bg-transparent border-2 border-dashed border-[#808080]'>
                             <div className="w-[200%] md:w-full h-full absolute -left-1/2 md:left-0">
                                 <svg viewBox="0 0 1415 597" fill="none" className="w-full absolute bottom-[3rem]">
                                     <g clipPath="url(#clip0_65_385)">
@@ -4902,7 +4902,7 @@ export default function Services() {
                             <div className='relative flex h-full max-w-[400px] flex-col justify-end'>
                                 <h3 className='relative mb-auto' style={{ lineHeight: '1.12', paddingBottom: 'clamp(4rem, 1.7714rem + 9.1429vw, 10rem)', fontSize: 'clamp(1.5rem, 1.2214rem + 1.1429vw, 2.39rem)' }}>E-Commerce Solutions</h3>
                                 <div className='mb-[1rem] flex items-center gap-[0.75rem] font-[300]' style={{ letterSpacing: '-0.04em', lineHeight: '0.96',  fontSize: 'clamp(4rem, 2.5143rem + 6.0952vw, 8rem)' }}>
-                                    <svg viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-[0.9em] shrink-0 text-[#36F4A4]">
+                                    <svg viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-[0.9em] shrink-0 text-[#3e6af0]">
                                         <g style={{ transformOrigin: "50% 50%" }}>
                                             <path d="M17.7137 90L90 17.7137" stroke="currentColor" stroke-width="7.22862"></path>
                                             <path d="M90 90L90 17.7137L17.7137 17.7137" stroke="currentColor" stroke-width="7.22862"></path>
@@ -4916,7 +4916,7 @@ export default function Services() {
                         </div>
                     </div>
                     <div className='text-white opacity-1 duration-800'>
-                        <div className='relative mx-auto w-full h-full overflow-hidden bg-[#07121f] '>
+                        <div className='relative mx-auto w-full h-full overflow-hidden bg-transparent border-2 border-dashed border-[#808080]'>
                             <div className="w-[200%] md:w-full h-full absolute -left-1/2 md:left-0">
                                 <svg viewBox="0 0 1415 597" fill="none" className="w-full absolute bottom-[3rem]">
                                     <g clipPath="url(#clip0_65_385)">
@@ -7332,7 +7332,7 @@ export default function Services() {
                             <div className='relative flex h-full max-w-[400px] flex-col justify-end'>
                                 <h3 className='relative mb-auto' style={{ lineHeight: '1.12', paddingBottom: 'clamp(4rem, 1.7714rem + 9.1429vw, 10rem)', fontSize: 'clamp(1.5rem, 1.2214rem + 1.1429vw, 2.39rem)' }}>UI/UX Design</h3>
                                 <div className='mb-[1rem] flex items-center gap-[0.75rem] font-[300]' style={{ letterSpacing: '-0.04em', lineHeight: '0.96',  fontSize: 'clamp(4rem, 2.5143rem + 6.0952vw, 8rem)' }}>
-                                    <svg viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-[0.9em] shrink-0 text-[#36F4A4]">
+                                    <svg viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-[0.9em] shrink-0 text-[#3e6af0]">
                                         <g style={{ transformOrigin: "50% 50%" }}>
                                             <path d="M17.7137 90L90 17.7137" stroke="currentColor" stroke-width="7.22862"></path>
                                             <path d="M90 90L90 17.7137L17.7137 17.7137" stroke="currentColor" stroke-width="7.22862"></path>
@@ -7346,7 +7346,7 @@ export default function Services() {
                         </div>
                     </div>
                     <div className='text-white opacity-1 duration-800'>
-                        <div className='relative mx-auto w-full h-full overflow-hidden bg-[#07121f] '>
+                        <div className='relative mx-auto w-full h-full overflow-hidden bg-transparent border-2 border-dashed border-[#808080]'>
                             <div className="w-[200%] md:w-full h-full absolute -left-1/2 md:left-0">
                                 <svg viewBox="0 0 1415 597" fill="none" className="w-full absolute bottom-[3rem]">
                                     <g clipPath="url(#clip0_65_385)">
@@ -9762,7 +9762,7 @@ export default function Services() {
                             <div className='relative flex h-full max-w-[400px] flex-col justify-end'>
                                 <h3 className='relative mb-auto' style={{ lineHeight: '1.12', paddingBottom: 'clamp(4rem, 1.7714rem + 9.1429vw, 10rem)', fontSize: 'clamp(1.5rem, 1.2214rem + 1.1429vw, 2.39rem)' }}>Website & SEO Optimization</h3>
                                 <div className='mb-[1rem] flex items-center gap-[0.75rem] font-[300]' style={{ letterSpacing: '-0.04em', lineHeight: '0.96',  fontSize: 'clamp(4rem, 2.5143rem + 6.0952vw, 8rem)' }}>
-                                    <svg viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-[0.9em] shrink-0 text-[#36F4A4]">
+                                    <svg viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-[0.9em] shrink-0 text-[#3e6af0]">
                                         <g style={{ transformOrigin: "50% 50%" }}>
                                             <path d="M17.7137 90L90 17.7137" stroke="currentColor" stroke-width="7.22862"></path>
                                             <path d="M90 90L90 17.7137L17.7137 17.7137" stroke="currentColor" stroke-width="7.22862"></path>
@@ -9776,7 +9776,7 @@ export default function Services() {
                         </div>
                     </div>
                     <div className='text-white opacity-1 duration-800'>
-                        <div className='relative mx-auto w-full h-full overflow-hidden bg-[#07121f] '>
+                        <div className='relative mx-auto w-full h-full overflow-hidden bg-transparent border-2 border-dashed border-[#808080]'>
                             <div className="w-[200%] md:w-full h-full absolute -left-1/2 md:left-0">
                                 <svg viewBox="0 0 1415 597" fill="none" className="w-full absolute bottom-[3rem]">
                                     <g clipPath="url(#clip0_65_385)">
@@ -12192,7 +12192,7 @@ export default function Services() {
                             <div className='relative flex h-full max-w-[400px] flex-col justify-end'>
                                 <h3 className='relative mb-auto' style={{ lineHeight: '1.12', paddingBottom: 'clamp(4rem, 1.7714rem + 9.1429vw, 10rem)', fontSize: 'clamp(1.5rem, 1.2214rem + 1.1429vw, 2.39rem)' }}>Maintenance & Support</h3>
                                 <div className='mb-[1rem] flex items-center gap-[0.75rem] font-[300]' style={{ letterSpacing: '-0.04em', lineHeight: '0.96',  fontSize: 'clamp(4rem, 2.5143rem + 6.0952vw, 8rem)' }}>
-                                    <svg viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-[0.9em] shrink-0 text-[#36F4A4]">
+                                    <svg viewBox="0 0 108 108" fill="none" xmlns="http://www.w3.org/2000/svg" className="size-[0.9em] shrink-0 text-[#3e6af0]">
                                         <g style={{ transformOrigin: "50% 50%" }}>
                                             <path d="M17.7137 90L90 17.7137" stroke="currentColor" stroke-width="7.22862"></path>
                                             <path d="M90 90L90 17.7137L17.7137 17.7137" stroke="currentColor" stroke-width="7.22862"></path>
@@ -12208,37 +12208,32 @@ export default function Services() {
                 </div>
             </div>
             <div id='subscription' className="px-[5rem]">
-                 <div className={`bg-[#07121f] shadow-lg mt-[5rem] relative mx-auto flex flex-row items-center rounded-2xl p-[4rem] justify-between relative overflow-hidden`}>
-                <div className='flex flex-col gap-3'>
-                    <div className="orb3 absolute z-0 glow-2 top-[12cqw] left-[49cqw] w-[13rem] h-[13rem] rounded-full opacity-30 transform scale-200 -rotate-[30deg] bg-[radial-gradient(ellipse_at_center,rgb(54,113,162,0.21),#06101c_75%,#06101c)]"></div>
-                    <div className="orb2 absolute z-0 glow-2 top-[13cqw] left-[37cqw] w-[13rem] h-[13rem] rounded-full opacity-30 transform scale-200 -rotate-[30deg] bg-[radial-gradient(ellipse_at_center,rgb(54,113,162,0.4),#06101c_75%,#06101c)]"></div>    
-                    <section>
-                        <h2 className='flex flex-col products-title text-left font-[300] text-[#fff] mx-auto gap-2' style={{ lineHeight: '1.04', letterSpacing: '-.04em', fontSize: 'clamp(2.5rem,calc(3.8095vw + 1.5714rem),1rem)', textWrap: 'balance' }}>
-                            <div>
-                                <span style={{lineHeight: '1.4'}}>
-                                    Subscribe Now to Enjoy 15% Discount <br/> Off All <span className='text-[#36F4A4]'>WeDev</span> Orders.
-                                </span>
-                            </div>
-                        </h2>
-                    </section>
-                    <div className='flex flex-col gap-4 mt-3 max-w-[35rem]'>
-                        Get rewarded for your loyalty. <br />
-                        As a WeDev+ Member, you’ll receive 15% off every project — no limits, no contracts. Just exclusive benefits for our returning clients.
+                <div className={`bg-[#ffffff0a] border-2 border-[#3e6af0] mt-[5rem] relative mx-auto flex flex-row items-center rounded-2xl p-[4rem] justify-between relative overflow-hidden`}>
+                    <div className='flex flex-col gap-3'>
+                        <section>
+                            <h2 className='flex flex-col products-title text-left font-[300] text-[#fff] mx-auto gap-2' style={{ lineHeight: '1.04', letterSpacing: '-.04em', fontSize: 'clamp(2.5rem,calc(3.8095vw + 1.5714rem),1rem)', textWrap: 'balance' }}>
+                                <div>
+                                    <span style={{lineHeight: '1.4'}}>
+                                        Subscribe Now to Enjoy 15% Discount <br/> Off All <span className='gradient-text'>WeDev</span> Orders.
+                                    </span>
+                                </div>
+                            </h2>
+                        </section>
+                        <div className='flex flex-col gap-4 mt-3 max-w-[35rem]'>
+                            Get rewarded for your loyalty. <br />
+                            As a WeDev+ Member, you’ll receive 15% off every project — no limits, no contracts. Just exclusive benefits for our returning clients.
+                        </div>
+                        <Link href={'https://wedev.lemonsqueezy.com/buy/4af16a94-73f2-412e-8c5a-39c9564e50bb'} target='_blank' className="mt-4 duration-200 w-[200px] transition ease-in-out bg-[#fff] hover:bg-gray-200 text-[#323232] flex flex-row justify-center items-center gap-3 text-gray-100 font-semibold inline-block pl-4 pr-6 py-[10px] font-medium rounded-full text-xs z-20">
+                            <svg width="24" height="40" viewBox="0 0 24 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.44011 24.4129L15.506 28.1336C16.5057 28.595 17.2114 29.3693 17.5924 30.2575C18.5563 32.5067 17.239 34.8071 15.1709 35.6343C13.1025 36.4613 10.8981 35.9291 9.89582 33.5901L6.38556 25.3782C6.11354 24.7416 6.79687 24.1162 7.44011 24.4129" fill="#FFC233"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.92482 22.0046L16.2509 18.8643C19.018 17.8206 22.0408 19.7953 22 22.6646C21.9994 22.7021 21.9987 22.7395 21.9977 22.7773C21.938 25.5714 18.9993 27.4494 16.293 26.4609L7.93271 23.4078C7.26581 23.1644 7.26088 22.255 7.92482 22.0046" fill="#FFC233"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.45767 20.9168L15.6425 17.4468C18.3623 16.2936 19.0525 12.8325 16.9224 10.8326C16.8945 10.8063 16.8666 10.7803 16.8383 10.7543C14.7499 8.82013 11.2974 9.50112 10.1085 12.0487L6.43564 19.9194C6.14259 20.5471 6.8049 21.1935 7.45767 20.9168" fill="#FFC233"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.35143 19.5456L8.32719 11.4044C8.69612 10.395 8.62779 9.36556 8.24637 8.47734C7.28051 6.22905 4.66482 5.50331 2.5971 6.33186C0.529704 7.16073 -0.638522 9.04315 0.365771 11.3812L3.89903 19.5843C4.17302 20.2199 5.11424 20.1948 5.35143 19.5456" fill="#FFC233"></path>
+                            </svg>
+                            <span className='capitalize text-[18px] text-[#494949]'>Subscribe</span>
+                        </Link>
                     </div>
-                    <Link href={'https://wedev.lemonsqueezy.com/buy/4af16a94-73f2-412e-8c5a-39c9564e50bb'} target='_blank' className="mt-4 duration-200 w-[200px] transition ease-in-out bg-[#fff] hover:bg-gray-200 text-[#323232] flex flex-row justify-center items-center gap-3 text-gray-100 font-semibold inline-block pl-4 pr-6 py-[10px] font-medium rounded-full text-xs z-20">
-                        <svg width="24" height="40" viewBox="0 0 24 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.44011 24.4129L15.506 28.1336C16.5057 28.595 17.2114 29.3693 17.5924 30.2575C18.5563 32.5067 17.239 34.8071 15.1709 35.6343C13.1025 36.4613 10.8981 35.9291 9.89582 33.5901L6.38556 25.3782C6.11354 24.7416 6.79687 24.1162 7.44011 24.4129" fill="#FFC233"></path>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.92482 22.0046L16.2509 18.8643C19.018 17.8206 22.0408 19.7953 22 22.6646C21.9994 22.7021 21.9987 22.7395 21.9977 22.7773C21.938 25.5714 18.9993 27.4494 16.293 26.4609L7.93271 23.4078C7.26581 23.1644 7.26088 22.255 7.92482 22.0046" fill="#FFC233"></path>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.45767 20.9168L15.6425 17.4468C18.3623 16.2936 19.0525 12.8325 16.9224 10.8326C16.8945 10.8063 16.8666 10.7803 16.8383 10.7543C14.7499 8.82013 11.2974 9.50112 10.1085 12.0487L6.43564 19.9194C6.14259 20.5471 6.8049 21.1935 7.45767 20.9168" fill="#FFC233"></path>
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.35143 19.5456L8.32719 11.4044C8.69612 10.395 8.62779 9.36556 8.24637 8.47734C7.28051 6.22905 4.66482 5.50331 2.5971 6.33186C0.529704 7.16073 -0.638522 9.04315 0.365771 11.3812L3.89903 19.5843C4.17302 20.2199 5.11424 20.1948 5.35143 19.5456" fill="#FFC233"></path>
-                        </svg>
-                        <span className='capitalize text-[18px] text-[#494949]'>Subscribe</span>
-                    </Link>
-                    {/* <a type='button' className="w-[13rem] rounded-md text-center py-4 bg-white hover:bg-gray-300 text-black text-sm font-bold uppercase transition duration-300 ease-in-out">
-                        how it works
-                    </a> */}
                 </div>
-            </div>
             </div>
         </div>
     )

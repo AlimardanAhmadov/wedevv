@@ -53,15 +53,9 @@ export default function GlobalTrainers() {
     return (
         <div id='clients'>
             <div className='px-[5rem] mx-auto relative top-[22rem] flex flex-col gap-[3rem]'>
-                {/* <div className='text-[2.25rem] font-[700] flex flex-col items-start'>
-                    <h1 className='uppercase text-white'>Clients all around the world</h1>
-                    <span className='text-[16px] font-medium text-gray-300'>
-                        Local and global
-                    </span>
-                </div> */}
                 <section className='' style={{ paddingTop: 'clamp(3rem,calc(4.9524vw + 1.7929rem),2.25rem)' }}>
                     <h2 className='flex flex-col products-title font-[300] text-[#fff] text-left mx-auto gap-2' style={{ lineHeight: '1.04', letterSpacing: '-.04em', fontSize: 'clamp(2.5rem,calc(3.8095vw + 1.5714rem),5rem)', textWrap: 'balance' }}>
-                        <div className='uppercase text-[#36F4A4]' style={{ fontWeight: 'calc(300 + 200)', fontSize: 'clamp(.875rem,calc(.1905vw + .8286rem),1rem)', lineHeight: '1.08', letterSpacing: '.04em' }}>Local and global</div>
+                        <div className='uppercase gradient-text' style={{ fontWeight: 'calc(300 + 200)', fontSize: 'clamp(.875rem,calc(.1905vw + .8286rem),1rem)', lineHeight: '1.08', letterSpacing: '.04em' }}>Local and global</div>
                         <div>
                             <span>
                                 Clients all around the world
@@ -69,9 +63,7 @@ export default function GlobalTrainers() {
                         </div>
                     </h2>
                 </section>
-                <div className={`clients rounded-2xl bg-[#07121f] flex flex-col items-start p-12 relative overflow-hidden`}>
-                    <div className="orb1 absolute z-0 glow-2 top-[12cqw] left-[39cqw] w-[13rem] h-[13rem] rounded-full opacity-30 transform scale-200 -rotate-[30deg] bg-[radial-gradient(ellipse_at_center,rgb(54,113,162,0.21),#06101c_75%,#06101c)]"></div>
-                    <div className="orb2 absolute z-0 glow-2 top-[13cqw] left-[17cqw] w-[13rem] h-[13rem] rounded-full opacity-30 transform scale-200 -rotate-[30deg] bg-[radial-gradient(ellipse_at_center,rgb(54,113,162,0.4),#06101c_75%,#06101c)]"></div>
+                <div className={`clients rounded-2xl flex flex-col items-start relative overflow-hidden`}>
                     <div className='flex flex-row gap-[4rem] w-full'>
                         <div className='h-[374px]' style={{ maskImage: 'linear-gradient(transparent, #000, transparent)' }}>
                             <div 
@@ -103,8 +95,8 @@ export default function GlobalTrainers() {
                         <p className='richtext text-body-sm text-gray-400'>From startups to established enterprises, businesses across different countries rely on WeDev to deliver scalable, modern, and high-performing digital solutions.</p>
                     </div>
                 </div>
-                <div className='flex flex-row items-center gap-4 testimonials relative'>
-                    <div className=' rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative p-6 w-full'>
+                <div className='flex flex-row items-center gap-4 testimonials relative mt-[2rem]'>
+                    <div className='rounded-2xl border-2 border-dashed border-[#808080] flex flex-col gap-4 items-start relative p-6 w-max'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="43" fill="none" viewBox="0 0 84 63" className="absolute top-[-30px] right-0 mr-2 z-1">
                             <path fill="#36F4A4" fill-rule="evenodd" d="M10.5 0A10.5 10.5 0 000 10.5v15.75a10.5 10.5 0 0010.5 10.5h15.75A15.75 15.75 0 0110.5 52.5H5.25a5.25 5.25 0 100 10.5h5.25a26.25 26.25 0 0026.25-26.25V10.5A10.5 10.5 0 0026.25 0H10.5zm47.25 0a10.5 10.5 0 00-10.5 10.5v15.75a10.5 10.5 0 0010.5 10.5H73.5A15.75 15.75 0 0157.75 52.5H52.5a5.25 5.25 0 100 10.5h5.25A26.25 26.25 0 0084 36.75V10.5A10.5 10.5 0 0073.5 0H57.75z" clip-rule="evenodd"></path>
                             <path fill="url(#paint0_linear_119_6)" fill-rule="evenodd" d="M10.5 0A10.5 10.5 0 000 10.5v15.75a10.5 10.5 0 0010.5 10.5h15.75A15.75 15.75 0 0110.5 52.5H5.25a5.25 5.25 0 100 10.5h5.25a26.25 26.25 0 0026.25-26.25V10.5A10.5 10.5 0 0026.25 0H10.5zm47.25 0a10.5 10.5 0 00-10.5 10.5v15.75a10.5 10.5 0 0010.5 10.5H73.5A15.75 15.75 0 0157.75 52.5H52.5a5.25 5.25 0 100 10.5h5.25A26.25 26.25 0 0084 36.75V10.5A10.5 10.5 0 0073.5 0H57.75z" clip-rule="evenodd"></path>
@@ -131,7 +123,7 @@ export default function GlobalTrainers() {
                         </div>
                         <p className='text-sm text-gray-400'>WeDev built a sleek, professional website that perfectly showcases my tattoo work and helped me attract more clients.</p>
                     </div>
-                    <div className=' rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative p-6 w-full'>
+                    <div className='rounded-2xl border-2 border-dashed border-[#808080] flex flex-col gap-4 items-start relative p-6 w-max'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="43" fill="none" viewBox="0 0 84 63" className="absolute top-[-30px] right-0 mr-2 z-1">
                             <path fill="#36F4A4" fill-rule="evenodd" d="M10.5 0A10.5 10.5 0 000 10.5v15.75a10.5 10.5 0 0010.5 10.5h15.75A15.75 15.75 0 0110.5 52.5H5.25a5.25 5.25 0 100 10.5h5.25a26.25 26.25 0 0026.25-26.25V10.5A10.5 10.5 0 0026.25 0H10.5zm47.25 0a10.5 10.5 0 00-10.5 10.5v15.75a10.5 10.5 0 0010.5 10.5H73.5A15.75 15.75 0 0157.75 52.5H52.5a5.25 5.25 0 100 10.5h5.25A26.25 26.25 0 0084 36.75V10.5A10.5 10.5 0 0073.5 0H57.75z" clip-rule="evenodd"></path>
                             <path fill="url(#paint0_linear_119_6)" fill-rule="evenodd" d="M10.5 0A10.5 10.5 0 000 10.5v15.75a10.5 10.5 0 0010.5 10.5h15.75A15.75 15.75 0 0110.5 52.5H5.25a5.25 5.25 0 100 10.5h5.25a26.25 26.25 0 0026.25-26.25V10.5A10.5 10.5 0 0026.25 0H10.5zm47.25 0a10.5 10.5 0 00-10.5 10.5v15.75a10.5 10.5 0 0010.5 10.5H73.5A15.75 15.75 0 0157.75 52.5H52.5a5.25 5.25 0 100 10.5h5.25A26.25 26.25 0 0084 36.75V10.5A10.5 10.5 0 0073.5 0H57.75z" clip-rule="evenodd"></path>
@@ -158,7 +150,7 @@ export default function GlobalTrainers() {
                         </div>
                         <p className='text-sm text-gray-400'>WeDev delivered a fast, modern website that elevated our brand and helped us win more software development clients.</p>
                     </div>
-                    <div className=' rounded-2xl bg-[#ffffff0a] border-2 border-[#11293e] flex flex-col gap-4 items-start relative p-6 w-full'>
+                    <div className='rounded-2xl border-2 border-dashed border-[#808080] flex flex-col gap-4 items-start relative p-6 w-max'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="43" fill="none" viewBox="0 0 84 63" className="absolute top-[-30px] right-0 mr-2 z-1">
                             <path fill="#36F4A4" fill-rule="evenodd" d="M10.5 0A10.5 10.5 0 000 10.5v15.75a10.5 10.5 0 0010.5 10.5h15.75A15.75 15.75 0 0110.5 52.5H5.25a5.25 5.25 0 100 10.5h5.25a26.25 26.25 0 0026.25-26.25V10.5A10.5 10.5 0 0026.25 0H10.5zm47.25 0a10.5 10.5 0 00-10.5 10.5v15.75a10.5 10.5 0 0010.5 10.5H73.5A15.75 15.75 0 0157.75 52.5H52.5a5.25 5.25 0 100 10.5h5.25A26.25 26.25 0 0084 36.75V10.5A10.5 10.5 0 0073.5 0H57.75z" clip-rule="evenodd"></path>
                             <path fill="url(#paint0_linear_119_6)" fill-rule="evenodd" d="M10.5 0A10.5 10.5 0 000 10.5v15.75a10.5 10.5 0 0010.5 10.5h15.75A15.75 15.75 0 0110.5 52.5H5.25a5.25 5.25 0 100 10.5h5.25a26.25 26.25 0 0026.25-26.25V10.5A10.5 10.5 0 0026.25 0H10.5zm47.25 0a10.5 10.5 0 00-10.5 10.5v15.75a10.5 10.5 0 0010.5 10.5H73.5A15.75 15.75 0 0157.75 52.5H52.5a5.25 5.25 0 100 10.5h5.25A26.25 26.25 0 0084 36.75V10.5A10.5 10.5 0 0073.5 0H57.75z" clip-rule="evenodd"></path>

@@ -5,15 +5,11 @@ export default function DiscordSection() {
         <div id='community'>
             <div className={`${classes.discordSection} flex flex-col items-center text-center gap-4 mx-auto relative h-[43rem] mb-[17rem] py-[5rem]`}>
                 <div className={`mx-auto max-w-[79rem]`}>
-                    {/* <div className={`${classes.tag} uppercase text-center py-2 px-5 text-black flex items-center gap-1`}>
-                        <img src="/icons/3d-discord.png" alt="our community" />
-                        <span>our community</span>
-                    </div> */}
-                    <section className='mt-[3rem]' style={{ paddingTop: 'clamp(3rem,calc(4.9524vw + 1.7929rem),2.25rem)' }}>
+                    <section className='mt-[5rem]' style={{ paddingTop: 'clamp(3rem,calc(4.9524vw + 1.7929rem),2.25rem)' }}>
                         <h2 className='flex flex-col products-title text-center font-[300] text-[#fff] text-left mx-auto gap-2' style={{ lineHeight: '1.04', letterSpacing: '-.04em', fontSize: 'clamp(2.5rem,calc(3.8095vw + 1.5714rem),4rem)', textWrap: 'balance' }}>
                             <div>
                                 <span>
-                                    We look forward to receiving <span className='text-[#36F4A4]'>community</span> feedback
+                                    We look forward to receiving <span className='gradient-text'>community</span> feedback
                                 </span>
                             </div>
                         </h2>

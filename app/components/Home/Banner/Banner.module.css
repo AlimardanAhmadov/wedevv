@@ -9,6 +9,25 @@
     font-size: clamp(2.5rem,calc(3.8095vw + 1.5714rem),3rem);
 }
 
+.bannerTitle span:nth-of-type(2) {
+    color: transparent;
+    background: linear-gradient(74deg, var(--bard-color-brand-text-gradient-stop-1) 0, var(--bard-color-brand-text-gradient-stop-2) 9%, var(--bard-color-brand-text-gradient-stop-3) 20%, var(--bard-color-brand-text-gradient-stop-3) 24%, var(--bard-color-brand-text-gradient-stop-2) 35%, var(--bard-color-brand-text-gradient-stop-1) 44%, var(--bard-color-brand-text-gradient-stop-2) 50%, var(--bard-color-brand-text-gradient-stop-3) 56%, #1b1c1d 75%, #1b1c1d 100%);
+    --bard-color-brand-text-gradient-stop-1: #4285f4;
+    --bard-color-brand-text-gradient-stop-2: #9b72cb;
+    --bard-color-brand-text-gradient-stop-3: #d96570;
+    --bard-color-brand-text-gradient-v2-stop-1: #3983ff;
+    --bard-color-brand-text-gradient-v2-stop-2: #3e6af0;
+    --bard-color-brand-text-gradient-v2-stop-3: #579fff;
+    --bard-color-input-area-buttons-hover-background: #e8eaed;
+    --bard-color-sidenav-mobile-controls: #e3e3e3;
+    --bard-color-sidenav-scrim: rgba(19, 19, 20, 0.4);
+    --bard-color-get-app-banner-background: #004a77;
+    background-size: 300% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .bannerSubtitle {
     font-size: .98rem;
     font-weight: 500;

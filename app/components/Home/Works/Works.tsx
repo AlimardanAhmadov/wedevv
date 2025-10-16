@@ -13,9 +13,9 @@ export default function Services() {
             </div>
             <div className='flex flex-col gap-[3rem]'>
                 <div className='absolute z-10 left-0 border-b w-full top-[-5rem] hidden' style={{ height: 'clamp(2rem,calc(1.5238vw + 1.6286rem),3rem)', borderColor: '#151413ff', background: '#151413ff', borderTopLeftRadius: 'clamp(2rem,calc(1.5238vw + 1.6286rem),3rem)', borderTopRightRadius: 'clamp(2rem,calc(1.5238vw + 1.6286rem),3rem)' }}></div>
-                <section className=" " style={{ paddingTop: 'clamp(3rem,calc(4.9524vw + 1.7929rem),2.25rem)' }}>
+                <section style={{ paddingTop: 'clamp(3rem,calc(4.9524vw + 1.7929rem),2.25rem)' }}>
                     <h2 className='flex flex-col products-title font-[300] text-[#fff] text-left mx-auto gap-2' style={{ lineHeight: '1.04', letterSpacing: '-.04em', fontSize: 'clamp(2.5rem,calc(3.8095vw + 1.5714rem),5rem)', textWrap: 'balance' }}>
-                        <div className='uppercase text-[#36F4A4]' style={{ fontWeight: 'calc(300 + 200)', fontSize: 'clamp(.875rem,calc(.1905vw + .8286rem),1rem)', lineHeight: '1.08', letterSpacing: '.04em' }}>Explore Our Works</div>
+                        <div className='uppercase gradient-text' style={{ fontWeight: 'calc(300 + 200)', fontSize: 'clamp(.875rem,calc(.1905vw + .8286rem),1rem)', lineHeight: '1.08', letterSpacing: '.04em' }}>Explore Our Works</div>
                         <div>
                             <span>
                                 Our Works
@@ -51,7 +51,7 @@ export default function Services() {
                                 </div>
                             </div>
                         </div>
-                        <a href="https://ivtechsolutions.ca/" target="_blank" className="duration-200 w-[160px] transition ease-in-out border-2 border-[#36F4A4] bg-[#36f4a438] flex flex-row justify-center items-center gap-1 text-[15px] text-[#fff] font-semibold inline-block px-4 py-[12px] font-[400] rounded-full z-20">
+                        <a href="https://ivtechsolutions.ca/" target="_blank" className="duration-200 w-[160px] transition ease-in-out border-2 border-[#3e6af0] bg-[#3e6af057] flex flex-row justify-center items-center gap-1 text-[15px] text-[#fff] font-semibold inline-block px-4 py-[12px] font-[400] rounded-full z-20">
                             View Project
                             <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#e8eaed">
                                 <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/>
@@ -84,7 +84,7 @@ export default function Services() {
                                 </div>
                             </div>
                         </div>
-                        <a href="https://cathytattoo.ink" target="_blank" className="duration-200 w-[160px] transition ease-in-out border-2 border-[#36F4A4] bg-[#36f4a438] flex flex-row justify-center items-center gap-1 text-[15px] text-[#fff] font-semibold inline-block px-4 py-[12px] font-[400] rounded-full z-20">
+                        <a href="https://cathytattoo.ink" target="_blank" className="duration-200 w-[160px] transition ease-in-out border-2 border-[#3e6af0] bg-[#3e6af057] flex flex-row justify-center items-center gap-1 text-[15px] text-[#fff] font-semibold inline-block px-4 py-[12px] font-[400] rounded-full z-20">
                             View Project
                             <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#e8eaed">
                                 <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/>
@@ -118,7 +118,7 @@ export default function Services() {
                                 </div>
                             </div>
                         </div>
-                        <a href="https://www.agatos.com/" target="_blank" className="duration-200 w-[160px] transition ease-in-out border-2 border-[#36F4A4] bg-[#36f4a438] flex flex-row justify-center items-center gap-1 text-[15px] text-[#fff] font-semibold inline-block px-4 py-[12px] font-[400] rounded-full z-20">
+                        <a href="https://www.agatos.com/" target="_blank" className="duration-200 w-[160px] transition ease-in-out border-2 border-[#3e6af0] bg-[#3e6af057] flex flex-row justify-center items-center gap-1 text-[15px] text-[#fff] font-semibold inline-block px-4 py-[12px] font-[400] rounded-full z-20">
                             View Project
                             <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="#e8eaed">
                                 <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/>
@@ -127,7 +127,7 @@ export default function Services() {
                     </div>
                 </div>
                 <div className="flex flex-col items-center justify-center mt-[3rem]">
-                    <a target="_blank" href="https://wa.me/994559861445?text=I%20want%20to%20see%20more%20of%20your%20projects%20on%20WeDev." className="duration-200 w-[300px] transition ease-in-out bg-[#36F4A4] flex flex-row justify-center items-center gap-1 text-[18px] text-gray-700 font-semibold inline-block px-4 py-[12px] font-[400] rounded-full z-20">
+                    <a target="_blank" href="https://wa.me/994559861445?text=I%20want%20to%20see%20more%20of%20your%20projects%20on%20WeDev." className="duration-200 w-[300px] transition ease-in-out bg-[#3e6af0] flex flex-row justify-center items-center gap-1 text-[18px] text-gray-200 font-semibold inline-block px-4 py-[12px] font-[400] rounded-full z-20">
                         Contact Us for More Projects
                     </a>
                 </div>

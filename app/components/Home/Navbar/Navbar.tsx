@@ -31,7 +31,7 @@ export default function Navbar() {
                     <div className="flex items-center justify-between">
                         <Link href={'/'} className={`${classes.logoBox} h-auto flex gap-[.5rem] items-center justify-center`}>
                             <img className='w-[40px]' src="/images/logo-main.png" alt="Alimardan Ahmadov Logo" />
-                            <span className='font-[400] uppercase text-[30px]'>We<span className='text-[#36F4A4] font-[400]'>Dev</span></span>
+                            <span className='font-[400] uppercase text-[30px]'>We<span className='font-[400]'>Dev</span></span>
                         </Link>
                     </div>
             
